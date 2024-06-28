@@ -30,14 +30,6 @@
                 {
                     "rel": "skiltplan",
                     "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/76737/versjon/1/skiltplan/120819/skiltplan"
-                },
-                {
-                    "rel": "self",
-                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/76737"
-                },
-                {
-                    "rel": "skiltplan",
-                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/76737/versjon/1/skiltplan/120819/skiltplan"
                 }
             ],
             "versjonsnummer": 1,
