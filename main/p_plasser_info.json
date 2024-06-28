@@ -1,0 +1,52 @@
+[
+    {
+        "id": 76737,
+        "parkeringstilbyderId": 207,
+        "parkeringstilbyderNavn": "VESTPARK AS",
+        "parkeringstilbyderOrganisasjonsnummer": "998413346",
+        "breddegrad": 58.890415,
+        "lengdegrad": 5.703519,
+        "deaktivert": null,
+        "aktivVersjon": {
+            "navn": "Koppholen 20",
+            "referanse": null,
+            "adresse": "Koppholen 20",
+            "postnummer": "4313",
+            "poststed": "SANDNES",
+            "antallAvgiftsbelagtePlasser": 8,
+            "antallAvgiftsfriePlasser": 0,
+            "antallLadeplasser": 0,
+            "merknadLadeplasser": null,
+            "antallForflytningshemmede": 0,
+            "vurderingForflytningshemmede": "Det er totalt 63 parkeringsplasser. 55 er kun for ansatte og 8 avgiftsbelagte parkeringsplasser  for gjester eller kunder, rett ved hovedinngangen. Kunder og gjester har ikke lov til å parkere på ansattes parkeringsplass.  Ingen plasser for forflytningshemmede,  ikke behov.",
+            "aktiveringstidspunkt": "2023-11-22T14:45:13Z",
+            "sistEndret": "2023-11-22T14:45:13Z",
+            "skiltplanId": 120819,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/76737"
+                },
+                {
+                    "rel": "skiltplan",
+                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/76737/versjon/1/skiltplan/120819/skiltplan"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/76737"
+                },
+                {
+                    "rel": "skiltplan",
+                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/76737/versjon/1/skiltplan/120819/skiltplan"
+                }
+            ],
+            "versjonsnummer": 1,
+            "sluttidspunkt": null,
+            "opplastetVurderingId": 0,
+            "typeParkeringsomrade": "AVGRENSET_OMRADE",
+            "innfartsparkering": "NEI",
+            "handhever": null
+        },
+        "historiskeVersjoner": []
+    }
+]
