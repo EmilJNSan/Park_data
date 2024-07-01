@@ -39,8 +39,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.890415,5.703519"
+        "historiskeVersjoner": []
     },
     {
         "id": 49516,
@@ -179,8 +178,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850616,5.739105"
+        ]
     },
     {
         "id": 59649,
@@ -222,8 +220,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.854079,5.737502"
+        "historiskeVersjoner": []
     },
     {
         "id": 59650,
@@ -426,11 +423,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.849672,5.734162",
-        "takst": "20-25-35 kr.",
-        "makstid": "maks 1 døgn",
-        "easypark": "832"
+        ]
     },
     {
         "id": 59651,
@@ -472,8 +465,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.846331,5.735489"
+        "historiskeVersjoner": []
     },
     {
         "id": 83207,
@@ -515,8 +507,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.849426,5.740348"
+        "historiskeVersjoner": []
     },
     {
         "id": 78342,
@@ -537,10 +528,10 @@
             "antallLadeplasser": 0,
             "merknadLadeplasser": null,
             "antallForflytningshemmede": 3,
-            "vurderingForflytningshemmede": "Dette er en gjesteparkering. Det er ikke ladeplasser siden kjøretøyene ikke skal stå så lenge om gangen.\nDet er 3 HC-plasser.",
-            "aktiveringstidspunkt": "2024-01-03T12:57:11Z",
-            "sistEndret": "2024-01-03T12:57:11Z",
-            "skiltplanId": 123333,
+            "vurderingForflytningshemmede": "Parkeringsplass for kjøretøy med gyldig parkeringstillatelse. Det er ikke ladeplasser da dette er en parkering med tidsbegrensning.\nDet er 3 HC-plasser.",
+            "aktiveringstidspunkt": "2024-06-22T06:33:43Z",
+            "sistEndret": "2024-06-22T06:33:43Z",
+            "skiltplanId": 136151,
             "links": [
                 {
                     "rel": "self",
@@ -548,18 +539,50 @@
                 },
                 {
                     "rel": "skiltplan",
-                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/78342/versjon/1/skiltplan/123333/skiltplan"
+                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/78342/versjon/2/skiltplan/136151/skiltplan"
                 }
             ],
-            "versjonsnummer": 1,
+            "versjonsnummer": 2,
             "sluttidspunkt": null,
             "opplastetVurderingId": 0,
             "typeParkeringsomrade": "AVGRENSET_OMRADE",
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.854496,5.749468"
+        "historiskeVersjoner": [
+            {
+                "navn": "Rovik Brygge",
+                "referanse": null,
+                "adresse": "Hanaveien 12B",
+                "postnummer": "4327",
+                "poststed": "SANDNES",
+                "antallAvgiftsbelagtePlasser": 10,
+                "antallAvgiftsfriePlasser": 0,
+                "antallLadeplasser": 0,
+                "merknadLadeplasser": null,
+                "antallForflytningshemmede": 3,
+                "vurderingForflytningshemmede": "Dette er en gjesteparkering. Det er ikke ladeplasser siden kjøretøyene ikke skal stå så lenge om gangen.\nDet er 3 HC-plasser.",
+                "aktiveringstidspunkt": "2024-01-03T12:57:11Z",
+                "sistEndret": "2024-01-03T12:57:11Z",
+                "skiltplanId": 123333,
+                "links": [
+                    {
+                        "rel": "self",
+                        "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/78342"
+                    },
+                    {
+                        "rel": "skiltplan",
+                        "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/78342/versjon/1/skiltplan/123333/skiltplan"
+                    }
+                ],
+                "versjonsnummer": 1,
+                "sluttidspunkt": "2024-06-22T06:33:43Z",
+                "opplastetVurderingId": 0,
+                "typeParkeringsomrade": "AVGRENSET_OMRADE",
+                "innfartsparkering": "NEI",
+                "handhever": null
+            }
+        ]
     },
     {
         "id": 59656,
@@ -698,11 +721,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850555,5.736196",
-        "takst": "22,-",
-        "makstid": "Langtid",
-        "easypark": "846"
+        ]
     },
     {
         "id": 40074,
@@ -744,8 +763,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.860876,5.742224"
+        "historiskeVersjoner": []
     },
     {
         "id": 59662,
@@ -948,11 +966,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850983,5.739311",
-        "takst": "20-25-35 kr.",
-        "makstid": "langtids",
-        "easypark": "833"
+        ]
     },
     {
         "id": 65550,
@@ -994,8 +1008,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.814013,5.747527"
+        "historiskeVersjoner": []
     },
     {
         "id": 59664,
@@ -1102,11 +1115,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851725,5.727835",
-        "takst": "15-21-32 kr.",
-        "makstid": "langtids",
-        "easypark": "835"
+        ]
     },
     {
         "id": 59666,
@@ -1213,11 +1222,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851669,5.729667",
-        "takst": "0kr-25 kr-35kr.",
-        "makstid": "1t gratis,3t",
-        "easypark": "837"
+        ]
     },
     {
         "id": 59667,
@@ -1324,8 +1329,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.847441,5.731326"
+        ]
     },
     {
         "id": 59668,
@@ -1367,8 +1371,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.86351,5.759169"
+        "historiskeVersjoner": []
     },
     {
         "id": 59669,
@@ -1410,8 +1413,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.854974,5.736315"
+        "historiskeVersjoner": []
     },
     {
         "id": 59670,
@@ -1486,11 +1488,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.847317,5.733078",
-        "takst": "20,-",
-        "makstid": "langtids",
-        "easypark": "843"
+        ]
     },
     {
         "id": 59671,
@@ -1565,8 +1563,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.846244,5.732635"
+        ]
     },
     {
         "id": 59672,
@@ -1641,8 +1638,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850636,5.730269"
+        ]
     },
     {
         "id": 59673,
@@ -1717,8 +1713,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.863541,5.789968"
+        ]
     },
     {
         "id": 59674,
@@ -1825,8 +1820,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.852433,5.732864"
+        ]
     },
     {
         "id": 59676,
@@ -1933,11 +1927,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.867351,5.73711",
-        "takst": "20,-",
-        "makstid": "maks 1 døgn",
-        "easypark": "842"
+        ]
     },
     {
         "id": 59677,
@@ -2044,11 +2034,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.847382,5.735967",
-        "takst": "20kr/125kr.",
-        "makstid": "langtids",
-        "easypark": "838"
+        ]
     },
     {
         "id": 62109,
@@ -2219,11 +2205,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850001,5.735244",
-        "takst": "20,-",
-        "makstid": null,
-        "easypark": "4272"
+        ]
     },
     {
         "id": 72352,
@@ -2265,11 +2247,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.856147,5.743775",
-        "takst": "280kr/døgn",
-        "makstid": "5 døgn",
-        "easypark": "830"
+        "historiskeVersjoner": []
     },
     {
         "id": 59682,
@@ -2344,11 +2322,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.849665,5.730346",
-        "takst": "20,-",
-        "makstid": "Langtid",
-        "easypark": "849"
+        ]
     },
     {
         "id": 59810,
@@ -2423,11 +2397,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.854009,5.751745",
-        "takst": "20 kr.",
-        "makstid": "2t gratis,max 6 t.",
-        "easypark": "836"
+        ]
     },
     {
         "id": 53807,
@@ -2469,8 +2439,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.821733,5.716829"
+        "historiskeVersjoner": []
     },
     {
         "id": 39993,
@@ -2609,8 +2578,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.832075,5.734987"
+        ]
     },
     {
         "id": 60768,
@@ -2717,11 +2685,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.848996,5.739367",
-        "takst": "20,-",
-        "makstid": "Langtid/1 time gratis",
-        "easypark": "844"
+        ]
     },
     {
         "id": 47077,
@@ -2763,8 +2727,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851051,5.740833"
+        "historiskeVersjoner": []
     },
     {
         "id": 57069,
@@ -2839,8 +2802,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.846446,5.736502"
+        ]
     },
     {
         "id": 53488,
@@ -2862,9 +2824,9 @@
             "merknadLadeplasser": null,
             "antallForflytningshemmede": 9,
             "vurderingForflytningshemmede": "Parkeringsplassen inneholder avgiftsparkering, abonnementsparkering, forflytningshemmede parkering på flere steder på området. El-lading er til rettelagt ved naboeiendom hvor det er tilrettelagt med forskjellig lademuligheter. Dette er åpent for allmenheten.",
-            "aktiveringstidspunkt": "2024-02-08T08:00:24Z",
-            "sistEndret": "2024-02-08T08:00:24Z",
-            "skiltplanId": 126127,
+            "aktiveringstidspunkt": "2024-06-22T13:14:34Z",
+            "sistEndret": "2024-06-22T13:14:34Z",
+            "skiltplanId": 136170,
             "links": [
                 {
                     "rel": "self",
@@ -2872,10 +2834,10 @@
                 },
                 {
                     "rel": "skiltplan",
-                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/53488/versjon/4/skiltplan/126127/skiltplan"
+                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/53488/versjon/5/skiltplan/136170/skiltplan"
                 }
             ],
-            "versjonsnummer": 4,
+            "versjonsnummer": 5,
             "sluttidspunkt": null,
             "opplastetVurderingId": 0,
             "typeParkeringsomrade": "AVGRENSET_OMRADE",
@@ -2978,12 +2940,40 @@
                 "typeParkeringsomrade": "AVGRENSET_OMRADE",
                 "innfartsparkering": "JA",
                 "handhever": null
+            },
+            {
+                "navn": "Elveparken",
+                "referanse": "Private parkeringsplass",
+                "adresse": "Gravarsveien 30",
+                "postnummer": "4306",
+                "poststed": "SANDNES",
+                "antallAvgiftsbelagtePlasser": 361,
+                "antallAvgiftsfriePlasser": 0,
+                "antallLadeplasser": 0,
+                "merknadLadeplasser": null,
+                "antallForflytningshemmede": 9,
+                "vurderingForflytningshemmede": "Parkeringsplassen inneholder avgiftsparkering, abonnementsparkering, forflytningshemmede parkering på flere steder på området. El-lading er til rettelagt ved naboeiendom hvor det er tilrettelagt med forskjellig lademuligheter. Dette er åpent for allmenheten.",
+                "aktiveringstidspunkt": "2024-02-08T08:00:24Z",
+                "sistEndret": "2024-02-08T08:00:24Z",
+                "skiltplanId": 126127,
+                "links": [
+                    {
+                        "rel": "self",
+                        "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/53488"
+                    },
+                    {
+                        "rel": "skiltplan",
+                        "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/53488/versjon/4/skiltplan/126127/skiltplan"
+                    }
+                ],
+                "versjonsnummer": 4,
+                "sluttidspunkt": "2024-06-22T13:14:34Z",
+                "opplastetVurderingId": 0,
+                "typeParkeringsomrade": "AVGRENSET_OMRADE",
+                "innfartsparkering": "JA",
+                "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850191,5.74299",
-        "takst": "20-25-35 kr.",
-        "makstid": "maks 1 døgn",
-        "easypark": "840"
+        ]
     },
     {
         "id": 40076,
@@ -3058,8 +3048,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.847013,5.738171"
+        ]
     },
     {
         "id": 3240,
@@ -3262,8 +3251,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851896,5.732519"
+        ]
     },
     {
         "id": 3246,
@@ -3370,8 +3358,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85357,5.736082"
+        ]
     },
     {
         "id": 3248,
@@ -3478,8 +3465,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85041,5.736599"
+        ]
     },
     {
         "id": 40279,
@@ -3746,8 +3732,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.848227,5.739652"
+        ]
     },
     {
         "id": 35551,
@@ -3793,8 +3778,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=59.046751,6.652011"
+        "historiskeVersjoner": []
     },
     {
         "id": 28672,
@@ -3869,8 +3853,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.849955,5.7065"
+        ]
     },
     {
         "id": 68611,
@@ -3977,11 +3960,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.854288,5.737665",
-        "takst": "15 kr.",
-        "makstid": "1t",
-        "easypark": "5604"
+        ]
     },
     {
         "id": 28676,
@@ -4088,84 +4067,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.882415,5.794769"
-    },
-    {
-        "id": 28677,
-        "parkeringstilbyderId": 2422,
-        "parkeringstilbyderNavn": "SANDNES KOMMUNE",
-        "parkeringstilbyderOrganisasjonsnummer": "964965137",
-        "breddegrad": 58.85037,
-        "lengdegrad": 5.719327,
-        "deaktivert": null,
-        "aktivVersjon": {
-            "navn": "Gåshaugen",
-            "referanse": null,
-            "adresse": "Slåttaveien 1",
-            "postnummer": "4319",
-            "poststed": "SANDNES",
-            "antallAvgiftsbelagtePlasser": 0,
-            "antallAvgiftsfriePlasser": 20,
-            "antallLadeplasser": 0,
-            "merknadLadeplasser": null,
-            "antallForflytningshemmede": 1,
-            "vurderingForflytningshemmede": "Området har en HC-plass som er skiltet, og som er utformet og skiltet i samsvar med forskriften. Men områdets bruk gir god anledning for HC-brukere til å parkere med god plass på siden og bak kjøretøyet. Det er ikke meldt at dette ikke er tilstrekkelig, men skulle behovet øke er det mulig å øke antallet HC-plasser. Bedriftsøkonomiske vurderinger tilsier at det ikke er montert ladestasjon.",
-            "aktiveringstidspunkt": "2022-02-17T09:50:50Z",
-            "sistEndret": "2022-02-17T09:50:50Z",
-            "skiltplanId": 38703,
-            "links": [
-                {
-                    "rel": "self",
-                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/28677"
-                },
-                {
-                    "rel": "skiltplan",
-                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/28677/versjon/2/skiltplan/38703/skiltplan"
-                }
-            ],
-            "versjonsnummer": 2,
-            "sluttidspunkt": null,
-            "opplastetVurderingId": 0,
-            "typeParkeringsomrade": "AVGRENSET_OMRADE",
-            "innfartsparkering": "NEI",
-            "handhever": null
-        },
-        "historiskeVersjoner": [
-            {
-                "navn": "Gåshaugen",
-                "referanse": null,
-                "adresse": "Slåttaveien 1",
-                "postnummer": "4319",
-                "poststed": "SANDNES",
-                "antallAvgiftsbelagtePlasser": 0,
-                "antallAvgiftsfriePlasser": 20,
-                "antallLadeplasser": 0,
-                "merknadLadeplasser": null,
-                "antallForflytningshemmede": 1,
-                "vurderingForflytningshemmede": "Området har en HC-plass som er skiltet, og som er utformet og skiltet i samsvar med forskriften. Men områdets bruk gir god anledning for HC-brukere til å parkere med god plass på siden og bak kjøretøyet. Det er ikke meldt at dette ikke er tilstrekkelig, men skulle behovet øke er det mulig å øke antallet HC-plasser. Bedriftsøkonomiske vurderinger tilsier at det ikke er montert ladestasjon.",
-                "aktiveringstidspunkt": "2020-07-07T12:45:46Z",
-                "sistEndret": "2020-07-07T12:45:46Z",
-                "skiltplanId": 38703,
-                "links": [
-                    {
-                        "rel": "self",
-                        "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/28677"
-                    },
-                    {
-                        "rel": "skiltplan",
-                        "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/28677/versjon/1/skiltplan/38703/skiltplan"
-                    }
-                ],
-                "versjonsnummer": 1,
-                "sluttidspunkt": "2022-02-17T09:28:20Z",
-                "opplastetVurderingId": 0,
-                "typeParkeringsomrade": "AVGRENSET_OMRADE",
-                "innfartsparkering": "NEI",
-                "handhever": null
-            }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85037,5.719327"
+        ]
     },
     {
         "id": 28679,
@@ -4272,8 +4174,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.833006,5.737849"
+        ]
     },
     {
         "id": 28680,
@@ -4412,8 +4313,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.830964,5.750354"
+        ]
     },
     {
         "id": 49678,
@@ -4455,8 +4355,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.905027,5.938835"
+        "historiskeVersjoner": []
     },
     {
         "id": 70671,
@@ -4531,8 +4430,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.856052,5.740478"
+        ]
     },
     {
         "id": 64528,
@@ -4574,8 +4472,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.920813,5.966349"
+        "historiskeVersjoner": []
     },
     {
         "id": 70672,
@@ -4650,11 +4547,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850138,5.736678",
-        "takst": "15 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 72211,
@@ -4696,8 +4589,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850946,5.732521"
+        "historiskeVersjoner": []
     },
     {
         "id": 28697,
@@ -4772,8 +4664,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.840243,5.72049"
+        ]
     },
     {
         "id": 28699,
@@ -4848,8 +4739,49 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.827189,5.73626"
+        ]
+    },
+    {
+        "id": 86045,
+        "parkeringstilbyderId": 2422,
+        "parkeringstilbyderNavn": "SANDNES KOMMUNE",
+        "parkeringstilbyderOrganisasjonsnummer": "964965137",
+        "breddegrad": 58.881321,
+        "lengdegrad": 5.736224,
+        "deaktivert": null,
+        "aktivVersjon": {
+            "navn": "Porsholen Barnehage og Skole",
+            "referanse": null,
+            "adresse": null,
+            "postnummer": "4314",
+            "poststed": "SANDNES",
+            "antallAvgiftsbelagtePlasser": 0,
+            "antallAvgiftsfriePlasser": 40,
+            "antallLadeplasser": 0,
+            "merknadLadeplasser": null,
+            "antallForflytningshemmede": 1,
+            "vurderingForflytningshemmede": "Parkering til skole og barnehage. HC-plassen er utformet og plassert iht. forskriften.",
+            "aktiveringstidspunkt": "2024-06-18T11:04:36Z",
+            "sistEndret": "2024-06-18T11:04:36Z",
+            "skiltplanId": 135870,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/86045"
+                },
+                {
+                    "rel": "skiltplan",
+                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/86045/versjon/1/skiltplan/135870/skiltplan"
+                }
+            ],
+            "versjonsnummer": 1,
+            "sluttidspunkt": null,
+            "opplastetVurderingId": 0,
+            "typeParkeringsomrade": "AVGRENSET_OMRADE",
+            "innfartsparkering": "NEI",
+            "handhever": null
+        },
+        "historiskeVersjoner": []
     },
     {
         "id": 49696,
@@ -4956,8 +4888,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.882015,5.737714"
+        ]
     },
     {
         "id": 78881,
@@ -4999,11 +4930,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853217,5.734666",
-        "takst": "15-21-32 kr.",
-        "makstid": "3t.",
-        "easypark": "5602"
+        "historiskeVersjoner": []
     },
     {
         "id": 49697,
@@ -5078,8 +5005,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.859084,5.741576"
+        ]
     },
     {
         "id": 72231,
@@ -5186,119 +5112,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.856422,5.740799",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
-    },
-    {
-        "id": 28712,
-        "parkeringstilbyderId": 2422,
-        "parkeringstilbyderNavn": "SANDNES KOMMUNE",
-        "parkeringstilbyderOrganisasjonsnummer": "964965137",
-        "breddegrad": 58.881497,
-        "lengdegrad": 5.736505,
-        "deaktivert": null,
-        "aktivVersjon": {
-            "navn": "Porsholen",
-            "referanse": null,
-            "adresse": "Porsmyrveien 35",
-            "postnummer": "4314",
-            "poststed": "SANDNES",
-            "antallAvgiftsbelagtePlasser": 0,
-            "antallAvgiftsfriePlasser": 40,
-            "antallLadeplasser": 0,
-            "merknadLadeplasser": null,
-            "antallForflytningshemmede": 1,
-            "vurderingForflytningshemmede": "HC-plassen er utformet og plassert iht. forskriften.",
-            "aktiveringstidspunkt": "2022-03-09T12:58:25Z",
-            "sistEndret": "2022-03-09T12:58:25Z",
-            "skiltplanId": 72337,
-            "links": [
-                {
-                    "rel": "self",
-                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/28712"
-                },
-                {
-                    "rel": "skiltplan",
-                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/28712/versjon/3/skiltplan/72337/skiltplan"
-                }
-            ],
-            "versjonsnummer": 3,
-            "sluttidspunkt": null,
-            "opplastetVurderingId": 0,
-            "typeParkeringsomrade": "AVGRENSET_OMRADE",
-            "innfartsparkering": "NEI",
-            "handhever": null
-        },
-        "historiskeVersjoner": [
-            {
-                "navn": "Porsholen",
-                "referanse": null,
-                "adresse": "Porsmyrveien 35",
-                "postnummer": "4314",
-                "poststed": "SANDNES",
-                "antallAvgiftsbelagtePlasser": 0,
-                "antallAvgiftsfriePlasser": 25,
-                "antallLadeplasser": 0,
-                "merknadLadeplasser": null,
-                "antallForflytningshemmede": 0,
-                "vurderingForflytningshemmede": "Det er ikke reserverte HC-plasser da området ikke er oppmerket. Derved er det god anledning for HC å få tilstrekkelig plass på siden- eller bak kjøretøyet. Dette er vurdert som tilstrekkelig, men det er forholdsvis enkelt å få på plass egne HC-plasser dersom behov for slike skulle oppstå. Det er ikke satt opp ladestasjon, da en slik investering på dette området vil være svært uøkonomisk.",
-                "aktiveringstidspunkt": "2020-07-08T08:09:48Z",
-                "sistEndret": "2020-07-08T08:09:48Z",
-                "skiltplanId": 38738,
-                "links": [
-                    {
-                        "rel": "self",
-                        "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/28712"
-                    },
-                    {
-                        "rel": "skiltplan",
-                        "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/28712/versjon/1/skiltplan/38738/skiltplan"
-                    }
-                ],
-                "versjonsnummer": 1,
-                "sluttidspunkt": "2022-02-17T09:28:20Z",
-                "opplastetVurderingId": 0,
-                "typeParkeringsomrade": "AVGRENSET_OMRADE",
-                "innfartsparkering": "NEI",
-                "handhever": null
-            },
-            {
-                "navn": "Porsholen",
-                "referanse": null,
-                "adresse": "Porsmyrveien 35",
-                "postnummer": "4314",
-                "poststed": "SANDNES",
-                "antallAvgiftsbelagtePlasser": 0,
-                "antallAvgiftsfriePlasser": 25,
-                "antallLadeplasser": 0,
-                "merknadLadeplasser": null,
-                "antallForflytningshemmede": 0,
-                "vurderingForflytningshemmede": "Det er ikke reserverte HC-plasser da området ikke er oppmerket. Derved er det god anledning for HC å få tilstrekkelig plass på siden- eller bak kjøretøyet. Dette er vurdert som tilstrekkelig, men det er forholdsvis enkelt å få på plass egne HC-plasser dersom behov for slike skulle oppstå. Det er ikke satt opp ladestasjon, da en slik investering på dette området vil være svært uøkonomisk.",
-                "aktiveringstidspunkt": "2022-02-17T09:52:51Z",
-                "sistEndret": "2022-02-17T09:52:51Z",
-                "skiltplanId": 38738,
-                "links": [
-                    {
-                        "rel": "self",
-                        "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/28712"
-                    },
-                    {
-                        "rel": "skiltplan",
-                        "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/28712/versjon/2/skiltplan/38738/skiltplan"
-                    }
-                ],
-                "versjonsnummer": 2,
-                "sluttidspunkt": "2022-03-09T12:58:25Z",
-                "opplastetVurderingId": 0,
-                "typeParkeringsomrade": "AVGRENSET_OMRADE",
-                "innfartsparkering": "NEI",
-                "handhever": null
-            }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.881497,5.736505"
+        ]
     },
     {
         "id": 63528,
@@ -5340,8 +5154,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.831748,5.658858"
+        "historiskeVersjoner": []
     },
     {
         "id": 63529,
@@ -5416,8 +5229,7 @@
                 "innfartsparkering": "JA",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85136,5.740651"
+        ]
     },
     {
         "id": 28719,
@@ -5492,8 +5304,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.828438,5.827774"
+        ]
     },
     {
         "id": 28720,
@@ -5568,8 +5379,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.869556,5.992907"
+        ]
     },
     {
         "id": 79921,
@@ -5611,8 +5421,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.823618,5.860885"
+        "historiskeVersjoner": []
     },
     {
         "id": 71732,
@@ -5687,11 +5496,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.847973,5.732573",
-        "takst": "15-21-32 kr.",
-        "makstid": "langtids",
-        "easypark": "5609"
+        ]
     },
     {
         "id": 49723,
@@ -5733,8 +5538,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.830111,5.74012"
+        "historiskeVersjoner": []
     },
     {
         "id": 63548,
@@ -5873,8 +5677,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.849989,5.740288"
+        ]
     },
     {
         "id": 72252,
@@ -5981,11 +5784,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853389,5.739811",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 85568,
@@ -6027,8 +5826,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.7879,5.807804"
+        "historiskeVersjoner": []
     },
     {
         "id": 72771,
@@ -6070,11 +5868,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850545,5.733425",
-        "takst": "15 kr.",
-        "makstid": "1t",
-        "easypark": "5604"
+        "historiskeVersjoner": []
     },
     {
         "id": 71751,
@@ -6116,8 +5910,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85293,5.729056"
+        "historiskeVersjoner": []
     },
     {
         "id": 71771,
@@ -6159,8 +5952,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853972,5.731723"
+        "historiskeVersjoner": []
     },
     {
         "id": 49756,
@@ -6202,8 +5994,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.8522,5.713208"
+        "historiskeVersjoner": []
     },
     {
         "id": 49758,
@@ -6245,8 +6036,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.831313,5.663931"
+        "historiskeVersjoner": []
     },
     {
         "id": 68191,
@@ -6321,11 +6111,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.852689,5.734641",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 29795,
@@ -6464,8 +6250,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.820517,5.746714"
+        ]
     },
     {
         "id": 50276,
@@ -6507,8 +6292,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.925807,5.84344"
+        "historiskeVersjoner": []
     },
     {
         "id": 50277,
@@ -6550,8 +6334,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.845129,5.737326"
+        "historiskeVersjoner": []
     },
     {
         "id": 71791,
@@ -6593,8 +6376,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.856665,5.740071"
+        "historiskeVersjoner": []
     },
     {
         "id": 49776,
@@ -6636,8 +6418,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.883551,5.799126"
+        "historiskeVersjoner": []
     },
     {
         "id": 79481,
@@ -6679,8 +6460,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.843003,5.728405"
+        "historiskeVersjoner": []
     },
     {
         "id": 71811,
@@ -6722,8 +6502,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851105,5.740628"
+        "historiskeVersjoner": []
     },
     {
         "id": 83586,
@@ -6765,8 +6544,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851782,5.734782"
+        "historiskeVersjoner": []
     },
     {
         "id": 49796,
@@ -6808,8 +6586,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.887197,5.810723"
+        "historiskeVersjoner": []
     },
     {
         "id": 72331,
@@ -6884,11 +6661,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.852317,5.735618",
-        "takst": "15 kr.",
-        "makstid": "1t",
-        "easypark": "5604"
+        ]
     },
     {
         "id": 72333,
@@ -6930,8 +6703,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.847591,5.737837"
+        "historiskeVersjoner": []
     },
     {
         "id": 72334,
@@ -6973,8 +6745,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.857514,5.744451"
+        "historiskeVersjoner": []
     },
     {
         "id": 72851,
@@ -7016,8 +6787,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.859995,5.743765"
+        "historiskeVersjoner": []
     },
     {
         "id": 64148,
@@ -7059,8 +6829,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.845841,5.726331"
+        "historiskeVersjoner": []
     },
     {
         "id": 71831,
@@ -7135,8 +6904,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.84841,5.736175"
+        ]
     },
     {
         "id": 49819,
@@ -7178,8 +6946,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.840595,5.714323"
+        "historiskeVersjoner": []
     },
     {
         "id": 72351,
@@ -7221,8 +6988,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.84145,5.715972"
+        "historiskeVersjoner": []
     },
     {
         "id": 79522,
@@ -7264,11 +7030,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853569,5.73321",
-        "takst": "15-21-32 kr.",
-        "makstid": "langtids",
-        "easypark": "5600"
+        "historiskeVersjoner": []
     },
     {
         "id": 67751,
@@ -7343,11 +7105,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85476,5.736996",
-        "takst": "15-21-32 kr.",
-        "makstid": "maks 1 døgn",
-        "easypark": "5600"
+        ]
     },
     {
         "id": 60073,
@@ -7422,8 +7180,7 @@
                 "innfartsparkering": "JA",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.84882,5.730153"
+        ]
     },
     {
         "id": 67752,
@@ -7562,11 +7319,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85401,5.738115",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 49839,
@@ -7608,8 +7361,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.873462,5.72848"
+        "historiskeVersjoner": []
     },
     {
         "id": 48816,
@@ -7684,8 +7436,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.923823,5.80521"
+        ]
     },
     {
         "id": 49841,
@@ -7727,8 +7478,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.786924,5.805022"
+        "historiskeVersjoner": []
     },
     {
         "id": 79541,
@@ -7770,8 +7520,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.842538,5.7309"
+        "historiskeVersjoner": []
     },
     {
         "id": 67773,
@@ -7846,11 +7595,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853751,5.735849",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 67772,
@@ -7925,8 +7670,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.854275,5.736694"
+        ]
     },
     {
         "id": 66751,
@@ -8001,11 +7745,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.852033,5.731813",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 66750,
@@ -8047,11 +7787,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851277,5.730229",
-        "takst": "15-21-32 kr.",
-        "makstid": "3t",
-        "easypark": "5602"
+        "historiskeVersjoner": []
     },
     {
         "id": 49856,
@@ -8093,8 +7829,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.78679,5.811525"
+        "historiskeVersjoner": []
     },
     {
         "id": 48838,
@@ -8169,8 +7904,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.950129,5.866388"
+        ]
     },
     {
         "id": 85705,
@@ -8212,8 +7946,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.866911,5.731286"
+        "historiskeVersjoner": []
     },
     {
         "id": 85706,
@@ -8255,8 +7988,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85965,5.7235"
+        "historiskeVersjoner": []
     },
     {
         "id": 49357,
@@ -8298,8 +8030,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.864321,5.852932"
+        "historiskeVersjoner": []
     },
     {
         "id": 85708,
@@ -8341,8 +8072,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.857988,5.7261"
+        "historiskeVersjoner": []
     },
     {
         "id": 67792,
@@ -8417,11 +8147,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.854529,5.738846",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 66771,
@@ -8496,11 +8222,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.852059,5.731062",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 66770,
@@ -8575,11 +8297,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851627,5.730163",
-        "takst": "15 kr.",
-        "makstid": "1t",
-        "easypark": "5604"
+        ]
     },
     {
         "id": 67794,
@@ -8686,11 +8404,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853029,5.73707",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 71893,
@@ -8732,8 +8446,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850885,5.729043"
+        "historiskeVersjoner": []
     },
     {
         "id": 66772,
@@ -8808,11 +8521,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85215,5.733189",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 71892,
@@ -8887,8 +8596,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853238,5.733426"
+        ]
     },
     {
         "id": 48856,
@@ -8963,8 +8671,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.930335,5.898322"
+        ]
     },
     {
         "id": 73433,
@@ -9006,8 +8713,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.855683,5.718543"
+        "historiskeVersjoner": []
     },
     {
         "id": 85725,
@@ -9049,8 +8755,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.859684,5.722026"
+        "historiskeVersjoner": []
     },
     {
         "id": 67812,
@@ -9125,11 +8830,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853324,5.735572",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 66790,
@@ -9268,11 +8969,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851564,5.732891",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 49896,
@@ -9347,8 +9044,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.779989,5.812738"
+        ]
     },
     {
         "id": 71913,
@@ -9423,8 +9119,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.849512,5.728819"
+        ]
     },
     {
         "id": 49897,
@@ -9499,8 +9194,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.84253,5.75543"
+        ]
     },
     {
         "id": 49898,
@@ -9575,8 +9269,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.866204,5.726907"
+        ]
     },
     {
         "id": 85227,
@@ -9618,8 +9311,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.8533,5.768551"
+        "historiskeVersjoner": []
     },
     {
         "id": 71914,
@@ -9661,8 +9353,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850552,5.728815"
+        "historiskeVersjoner": []
     },
     {
         "id": 64749,
@@ -9704,8 +9395,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.826901,5.820838"
+        "historiskeVersjoner": []
     },
     {
         "id": 85745,
@@ -9747,8 +9437,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.873365,5.731883"
+        "historiskeVersjoner": []
     },
     {
         "id": 49916,
@@ -9790,8 +9479,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.831738,5.751078"
+        "historiskeVersjoner": []
     },
     {
         "id": 73473,
@@ -9833,8 +9521,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.865792,5.742585"
+        "historiskeVersjoner": []
     },
     {
         "id": 67331,
@@ -9909,11 +9596,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85223,5.733721",
-        "takst": "15 kr.",
-        "makstid": "1t",
-        "easypark": "5604"
+        ]
     },
     {
         "id": 67330,
@@ -9955,11 +9638,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853115,5.731717",
-        "takst": "15 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        "historiskeVersjoner": []
     },
     {
         "id": 49936,
@@ -10001,8 +9680,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.864848,5.735945"
+        "historiskeVersjoner": []
     },
     {
         "id": 64789,
@@ -10077,8 +9755,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.860346,5.704696"
+        ]
     },
     {
         "id": 69911,
@@ -10153,11 +9830,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.855607,5.739819",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 67350,
@@ -10232,11 +9905,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.852647,5.73287",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 83225,
@@ -10278,8 +9947,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.847632,5.735173"
+        "historiskeVersjoner": []
     },
     {
         "id": 69912,
@@ -10321,11 +9989,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.857129,5.740742",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5603"
+        "historiskeVersjoner": []
     },
     {
         "id": 85287,
@@ -10367,8 +10031,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.875172,5.735014"
+        "historiskeVersjoner": []
     },
     {
         "id": 69931,
@@ -10443,11 +10106,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.855875,5.739845",
-        "takst": "15 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 67370,
@@ -10554,11 +10213,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851505,5.731442",
-        "takst": "15 kr.",
-        "makstid": "1t",
-        "easypark": "5604"
+        ]
     },
     {
         "id": 64309,
@@ -10665,8 +10320,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.847317,5.72764"
+        ]
     },
     {
         "id": 54588,
@@ -10708,8 +10362,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.90188,6.089165"
+        "historiskeVersjoner": []
     },
     {
         "id": 54589,
@@ -10751,8 +10404,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.900651,6.088401"
+        "historiskeVersjoner": []
     },
     {
         "id": 54590,
@@ -10794,8 +10446,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.899101,6.097012"
+        "historiskeVersjoner": []
     },
     {
         "id": 64329,
@@ -10837,8 +10488,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.823,5.716205"
+        "historiskeVersjoner": []
     },
     {
         "id": 49996,
@@ -10880,8 +10530,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.838689,5.774022"
+        "historiskeVersjoner": []
     },
     {
         "id": 49997,
@@ -10923,8 +10572,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.89122,5.81352"
+        "historiskeVersjoner": []
     },
     {
         "id": 54608,
@@ -10966,8 +10614,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.898602,6.155165"
+        "historiskeVersjoner": []
     },
     {
         "id": 80722,
@@ -11009,8 +10656,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.843021,5.756186"
+        "historiskeVersjoner": []
     },
     {
         "id": 54627,
@@ -11052,8 +10698,49 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.901324,6.10664"
+        "historiskeVersjoner": []
+    },
+    {
+        "id": 86385,
+        "parkeringstilbyderId": 2422,
+        "parkeringstilbyderNavn": "SANDNES KOMMUNE",
+        "parkeringstilbyderOrganisasjonsnummer": "964965137",
+        "breddegrad": 58.850424,
+        "lengdegrad": 5.719824,
+        "deaktivert": null,
+        "aktivVersjon": {
+            "navn": "Stangeland barnehage",
+            "referanse": null,
+            "adresse": null,
+            "postnummer": "4319",
+            "poststed": "SANDNES",
+            "antallAvgiftsbelagtePlasser": 0,
+            "antallAvgiftsfriePlasser": 20,
+            "antallLadeplasser": 0,
+            "merknadLadeplasser": null,
+            "antallForflytningshemmede": 1,
+            "vurderingForflytningshemmede": "Parkering til barnehage. Det er en HC-plass. Det er ikke ladeplasser da dette ikke er hensiktsmessig.",
+            "aktiveringstidspunkt": "2024-06-22T06:21:22Z",
+            "sistEndret": "2024-06-22T06:21:22Z",
+            "skiltplanId": 136150,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/86385"
+                },
+                {
+                    "rel": "skiltplan",
+                    "href": "https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/parkeringsomraade/86385/versjon/1/skiltplan/136150/skiltplan"
+                }
+            ],
+            "versjonsnummer": 1,
+            "sluttidspunkt": null,
+            "opplastetVurderingId": 0,
+            "typeParkeringsomrade": "AVGRENSET_OMRADE",
+            "innfartsparkering": "NEI",
+            "handhever": null
+        },
+        "historiskeVersjoner": []
     },
     {
         "id": 50036,
@@ -11095,8 +10782,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.803868,5.740684"
+        "historiskeVersjoner": []
     },
     {
         "id": 50038,
@@ -11171,8 +10857,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.82007,5.744786"
+        ]
     },
     {
         "id": 50039,
@@ -11214,8 +10899,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.818066,5.744584"
+        "historiskeVersjoner": []
     },
     {
         "id": 54647,
@@ -11290,8 +10974,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.901163,6.108179"
+        ]
     },
     {
         "id": 50056,
@@ -11333,8 +11016,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.929547,5.850989"
+        "historiskeVersjoner": []
     },
     {
         "id": 50058,
@@ -11376,8 +11058,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.929762,5.843077"
+        "historiskeVersjoner": []
     },
     {
         "id": 50059,
@@ -11452,8 +11133,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.931264,5.857155"
+        ]
     },
     {
         "id": 50060,
@@ -11495,8 +11175,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.926994,5.854595"
+        "historiskeVersjoner": []
     },
     {
         "id": 50061,
@@ -11538,8 +11217,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.919433,5.871425"
+        "historiskeVersjoner": []
     },
     {
         "id": 50062,
@@ -11581,8 +11259,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.886787,5.857625"
+        "historiskeVersjoner": []
     },
     {
         "id": 50063,
@@ -11624,8 +11301,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.822905,5.711315"
+        "historiskeVersjoner": []
     },
     {
         "id": 50064,
@@ -11667,8 +11343,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.854945,5.773474"
+        "historiskeVersjoner": []
     },
     {
         "id": 50066,
@@ -11710,8 +11385,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.919436,5.84135"
+        "historiskeVersjoner": []
     },
     {
         "id": 50067,
@@ -11753,8 +11427,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.925607,5.845106"
+        "historiskeVersjoner": []
     },
     {
         "id": 50076,
@@ -11796,8 +11469,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.930505,5.847529"
+        "historiskeVersjoner": []
     },
     {
         "id": 50077,
@@ -11872,8 +11544,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.931042,5.845796"
+        ]
     },
     {
         "id": 50078,
@@ -11915,8 +11586,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.926482,5.845219"
+        "historiskeVersjoner": []
     },
     {
         "id": 49058,
@@ -12023,8 +11693,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.894536,5.846586"
+        ]
     },
     {
         "id": 49060,
@@ -12163,8 +11832,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.858497,5.852809"
+        ]
     },
     {
         "id": 63908,
@@ -12206,8 +11874,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.947788,6.144904"
+        "historiskeVersjoner": []
     },
     {
         "id": 63909,
@@ -12249,8 +11916,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.968682,6.237596"
+        "historiskeVersjoner": []
     },
     {
         "id": 49577,
@@ -12389,11 +12055,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.854417,5.74093",
-        "takst": "15-21-32 kr.",
-        "makstid": "langtids",
-        "easypark": "5600"
+        ]
     },
     {
         "id": 50096,
@@ -12468,8 +12130,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.928364,5.854255"
+        ]
     },
     {
         "id": 71091,
@@ -12608,11 +12269,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851115,5.734823",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 66491,
@@ -12687,11 +12344,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851475,5.732159",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 66490,
@@ -12798,11 +12451,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851955,5.730219",
-        "takst": "15 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 66492,
@@ -12877,11 +12526,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85291,5.729887",
-        "takst": "15 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 50116,
@@ -12956,8 +12601,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.917895,5.843206"
+        ]
     },
     {
         "id": 49616,
@@ -13064,8 +12708,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853544,5.741121"
+        ]
     },
     {
         "id": 49618,
@@ -13107,8 +12750,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.856216,5.758851"
+        "historiskeVersjoner": []
     },
     {
         "id": 28631,
@@ -13183,8 +12825,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.935225,5.968086"
+        ]
     },
     {
         "id": 28634,
@@ -13259,8 +12900,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.81044,5.775477"
+        ]
     },
     {
         "id": 28636,
@@ -13335,8 +12975,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.856359,5.7524"
+        ]
     },
     {
         "id": 66530,
@@ -13411,8 +13050,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.809568,5.715188"
+        ]
     },
     {
         "id": 49636,
@@ -13454,8 +13092,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.825047,5.821634"
+        "historiskeVersjoner": []
     },
     {
         "id": 28645,
@@ -13530,8 +13167,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.894307,6.055205"
+        ]
     },
     {
         "id": 28646,
@@ -13606,8 +13242,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.826429,5.728135"
+        ]
     },
     {
         "id": 70633,
@@ -13682,11 +13317,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851563,5.74201",
-        "takst": "15 kr.",
-        "makstid": "1t",
-        "easypark": "5604"
+        ]
     },
     {
         "id": 70632,
@@ -13761,11 +13392,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850387,5.734471",
-        "takst": "15-21-32 kr.",
-        "makstid": "2t",
-        "easypark": "5601"
+        ]
     },
     {
         "id": 28651,
@@ -13872,8 +13499,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.856486,6.016924"
+        ]
     },
     {
         "id": 54767,
@@ -13915,8 +13541,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.901,6.0974"
+        "historiskeVersjoner": []
     },
     {
         "id": 80881,
@@ -13958,8 +13583,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.848969,5.738083"
+        "historiskeVersjoner": []
     },
     {
         "id": 70652,
@@ -14034,11 +13658,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.851316,5.746494",
-        "takst": "15-21-32 kr.",
-        "makstid": "3t",
-        "easypark": "5602"
+        ]
     },
     {
         "id": 80261,
@@ -14113,8 +13733,7 @@
                 "innfartsparkering": "JA",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.857998,5.754796"
+        ]
     },
     {
         "id": 12681,
@@ -14317,8 +13936,7 @@
                 "innfartsparkering": "JA",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.844885,5.731687"
+        ]
     },
     {
         "id": 21171,
@@ -14489,8 +14107,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853237,5.742479"
+        ]
     },
     {
         "id": 52003,
@@ -14532,8 +14149,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.850951,5.734619"
+        "historiskeVersjoner": []
     },
     {
         "id": 83968,
@@ -14575,8 +14191,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.841695,5.73366"
+        "historiskeVersjoner": []
     },
     {
         "id": 83970,
@@ -14618,8 +14233,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.841636,5.734832"
+        "historiskeVersjoner": []
     },
     {
         "id": 83986,
@@ -14661,8 +14275,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.839703,5.733085"
+        "historiskeVersjoner": []
     },
     {
         "id": 84005,
@@ -14704,8 +14317,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.873529,5.724741"
+        "historiskeVersjoner": []
     },
     {
         "id": 84025,
@@ -14747,8 +14359,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.849376,5.730497"
+        "historiskeVersjoner": []
     },
     {
         "id": 84026,
@@ -14790,8 +14401,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.817224,5.700829"
+        "historiskeVersjoner": []
     },
     {
         "id": 84046,
@@ -14833,8 +14443,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.857658,5.740482"
+        "historiskeVersjoner": []
     },
     {
         "id": 83907,
@@ -14876,8 +14485,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.820157,5.711601"
+        "historiskeVersjoner": []
     },
     {
         "id": 83909,
@@ -14919,8 +14527,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.842653,5.733535"
+        "historiskeVersjoner": []
     },
     {
         "id": 83908,
@@ -14962,8 +14569,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853644,5.739524"
+        "historiskeVersjoner": []
     },
     {
         "id": 83910,
@@ -15005,8 +14611,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.84937,5.734699"
+        "historiskeVersjoner": []
     },
     {
         "id": 83925,
@@ -15048,8 +14653,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.848498,5.729394"
+        "historiskeVersjoner": []
     },
     {
         "id": 83928,
@@ -15124,8 +14728,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853127,5.739694"
+        ]
     },
     {
         "id": 83930,
@@ -15167,8 +14770,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.821033,5.753281"
+        "historiskeVersjoner": []
     },
     {
         "id": 83945,
@@ -15210,8 +14812,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.865937,5.760889"
+        "historiskeVersjoner": []
     },
     {
         "id": 83946,
@@ -15253,8 +14854,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.865967,5.760278"
+        "historiskeVersjoner": []
     },
     {
         "id": 84205,
@@ -15296,8 +14896,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853127,5.739694"
+        "historiskeVersjoner": []
     },
     {
         "id": 83948,
@@ -15339,8 +14938,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.834485,5.722197"
+        "historiskeVersjoner": []
     },
     {
         "id": 83965,
@@ -15382,8 +14980,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.849235,5.730025"
+        "historiskeVersjoner": []
     },
     {
         "id": 83966,
@@ -15425,8 +15022,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.872039,5.739787"
+        "historiskeVersjoner": []
     },
     {
         "id": 24551,
@@ -15472,8 +15068,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.920382,6.279854"
+        "historiskeVersjoner": []
     },
     {
         "id": 8193,
@@ -15548,8 +15143,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.820161,5.711599"
+        ]
     },
     {
         "id": 57089,
@@ -15591,8 +15185,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.841733,5.73486"
+        "historiskeVersjoner": []
     },
     {
         "id": 68612,
@@ -15634,8 +15227,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.849376,5.730497"
+        "historiskeVersjoner": []
     },
     {
         "id": 12039,
@@ -15710,8 +15302,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853128,5.739702"
+        ]
     },
     {
         "id": 18312,
@@ -15818,8 +15409,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.853158,5.739888"
+        ]
     },
     {
         "id": 51080,
@@ -15861,8 +15451,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.849386,5.734693"
+        "historiskeVersjoner": []
     },
     {
         "id": 67210,
@@ -15969,8 +15558,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.873529,5.724741"
+        ]
     },
     {
         "id": 57369,
@@ -16045,8 +15633,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.839703,5.733085"
+        ]
     },
     {
         "id": 8350,
@@ -16185,8 +15772,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.834484,5.7222"
+        ]
     },
     {
         "id": 75057,
@@ -16228,8 +15814,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.817224,5.700829"
+        "historiskeVersjoner": []
     },
     {
         "id": 11449,
@@ -16336,8 +15921,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.857658,5.740487"
+        ]
     },
     {
         "id": 44095,
@@ -16412,8 +15996,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.85376,5.739615"
+        ]
     },
     {
         "id": 43334,
@@ -16584,8 +16167,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.872039,5.739787"
+        ]
     },
     {
         "id": 7246,
@@ -16820,8 +16402,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.848496,5.729388"
+        ]
     },
     {
         "id": 8270,
@@ -16960,8 +16541,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.865964,5.760283"
+        ]
     },
     {
         "id": 8271,
@@ -17132,8 +16712,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.865935,5.760884"
+        ]
     },
     {
         "id": 47576,
@@ -17175,8 +16754,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.821033,5.753281"
+        "historiskeVersjoner": []
     },
     {
         "id": 42714,
@@ -17315,8 +16893,7 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.849064,5.729772"
+        ]
     },
     {
         "id": 55907,
@@ -17358,8 +16935,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.842653,5.733535"
+        "historiskeVersjoner": []
     },
     {
         "id": 55927,
@@ -17401,8 +16977,7 @@
             "innfartsparkering": "NEI",
             "handhever": null
         },
-        "historiskeVersjoner": [],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.841684,5.733616"
+        "historiskeVersjoner": []
     },
     {
         "id": 56630,
@@ -17477,7 +17052,6 @@
                 "innfartsparkering": "NEI",
                 "handhever": null
             }
-        ],
-        "veibeskriv": "https://www.google.com/maps/dir/?api=1&destination=58.888859,5.718305"
+        ]
     }
 ]
