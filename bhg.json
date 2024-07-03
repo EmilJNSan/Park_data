@@ -5,7 +5,7 @@
     "spatialReference": {
         "wkid": 25833,
         "latestWkid": 25833
-    }
+    },
     "fields": [
         {
             "name": "Navn",
