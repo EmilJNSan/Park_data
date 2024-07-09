@@ -1,16 +1,3 @@
-# Park_data
-
-    "VESTPARK AS": "998413346",
-    "TIME PARK SERVICE AS": "991004343",
-    "SANDNES PARKERINGSDRIFT AS": "990234248",
-    "APCOA NORWAY AS": "929292065",
-    "LYSEFJORDEN UTVIKLING AS": "988467774",
-    "SANDNES KOMMUNE": "964965137",
-    "SANDNES PARKERINGSDRIFT AS": "990201498",
-    "AIMO PARK NORWAY AS": "946359106",
-    "SECURITY PARK AS": "984524455",
-    "ROGALAND PARKERING AS": "993394378",
-    "ØVRE ESPEDAL GRUNNEIGARLAG": "999574548",
-    "SKAGEN PARKERING AS": "919035390",
-    "SANDNES PARKERING KF": "988999326",
-    "ONEPARK AS AVD HOVEDKONTOR": "999538959",
+_/Barnehager/_: https://kart.sandnes.kommune.no/appgis/rest/services/POI/POI/FeatureServer/0/
+_/aktiviteter/_: https://kart.sandnes.kommune.no/appgis/rest/services/POI/POI/FeatureServer/5/
+_/Parkdata/_: https://parkreg-open.atlas.vegvesen.no/ws/no/vegvesen/veg/parkeringsomraade/parkeringsregisteret/v1/
