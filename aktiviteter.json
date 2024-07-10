@@ -41,6 +41,11 @@
             "name": "Type",
             "alias": "Type",
             "type": "esriFieldTypeInteger"
+        },
+        {
+            "name": "Eierform",
+            "alias": "Eierform",
+            "type": "esriFieldTypeInteger"
         }
     ],
     "features": [
@@ -51,7 +56,8 @@
                 "Gatenavn": "Skaraveien",
                 "Husnummer": "100",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -31463.05965089437,
@@ -67,7 +73,8 @@
                 "Gatenavn": "Espedalsvegen",
                 "Husnummer": "156",
                 "Bokstav": null,
-                "Type": 301
+                "Type": 301,
+                "Eierform": null
             },
             "geometry": {
                 "x": -9986.79516264965,
@@ -83,7 +90,8 @@
                 "Gatenavn": "Figgenveien",
                 "Husnummer": "17",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -30262.326918365783,
@@ -99,7 +107,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 909
+                "Type": 909,
+                "Eierform": null
             },
             "geometry": {
                 "x": -8980.560221195163,
@@ -115,7 +124,8 @@
                 "Gatenavn": "Jønningsheiveien",
                 "Husnummer": "47",
                 "Bokstav": null,
-                "Type": 301
+                "Type": 301,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33902.45195463195,
@@ -131,7 +141,8 @@
                 "Gatenavn": "Heigreveien",
                 "Husnummer": "403",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -38208.038137997035,
@@ -147,7 +158,8 @@
                 "Gatenavn": "Nøtteskjellveien",
                 "Husnummer": "9",
                 "Bokstav": null,
-                "Type": 301
+                "Type": 301,
+                "Eierform": null
             },
             "geometry": {
                 "x": -26036.290167292347,
@@ -163,7 +175,8 @@
                 "Gatenavn": "Postveien",
                 "Husnummer": "181",
                 "Bokstav": null,
-                "Type": 300
+                "Type": 300,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33096.58653333865,
@@ -179,7 +192,8 @@
                 "Gatenavn": "Espelandsveien",
                 "Husnummer": "364",
                 "Bokstav": null,
-                "Type": 101
+                "Type": 101,
+                "Eierform": null
             },
             "geometry": {
                 "x": -29054.455959446146,
@@ -195,7 +209,8 @@
                 "Gatenavn": "Espedalsvegen",
                 "Husnummer": "158",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -9945.573347027297,
@@ -211,7 +226,8 @@
                 "Gatenavn": "Haugen",
                 "Husnummer": "27",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -34173.022185030975,
@@ -227,7 +243,8 @@
                 "Gatenavn": "Holbergs gate",
                 "Husnummer": "23",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33132.15382184426,
@@ -243,7 +260,8 @@
                 "Gatenavn": "Lyngholen",
                 "Husnummer": "7",
                 "Bokstav": null,
-                "Type": 906
+                "Type": 906,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33579.82368597621,
@@ -259,7 +277,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 905
+                "Type": 905,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32489.68284344976,
@@ -275,7 +294,8 @@
                 "Gatenavn": "Prinsens vei",
                 "Husnummer": "14",
                 "Bokstav": "A",
-                "Type": 906
+                "Type": 906,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32889.63937706954,
@@ -291,7 +311,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 905
+                "Type": 905,
+                "Eierform": null
             },
             "geometry": {
                 "x": -10969.372243559512,
@@ -307,7 +328,8 @@
                 "Gatenavn": "Kjervestadveien",
                 "Husnummer": "2",
                 "Bokstav": null,
-                "Type": 301
+                "Type": 301,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32499.750004230067,
@@ -323,7 +345,8 @@
                 "Gatenavn": "Hanamyrveien",
                 "Husnummer": "19",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -31185.785425511538,
@@ -339,7 +362,8 @@
                 "Gatenavn": "Kjervestadveien",
                 "Husnummer": "2",
                 "Bokstav": null,
-                "Type": 300
+                "Type": 300,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32526.88879647071,
@@ -355,7 +379,8 @@
                 "Gatenavn": "Espedalsvegen",
                 "Husnummer": "156",
                 "Bokstav": null,
-                "Type": 300
+                "Type": 300,
+                "Eierform": null
             },
             "geometry": {
                 "x": -9974.337125635066,
@@ -371,7 +396,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 903
+                "Type": 903,
+                "Eierform": null
             },
             "geometry": {
                 "x": -30976.702162716654,
@@ -387,7 +413,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 909
+                "Type": 909,
+                "Eierform": null
             },
             "geometry": {
                 "x": -30335.717402972165,
@@ -403,7 +430,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 909
+                "Type": 909,
+                "Eierform": null
             },
             "geometry": {
                 "x": -29361.29533841624,
@@ -419,7 +447,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 904
+                "Type": 904,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33775.84487655223,
@@ -435,7 +464,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 905
+                "Type": 905,
+                "Eierform": null
             },
             "geometry": {
                 "x": -36026.120951054734,
@@ -451,7 +481,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 905
+                "Type": 905,
+                "Eierform": null
             },
             "geometry": {
                 "x": -28585.278780989,
@@ -467,7 +498,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 905
+                "Type": 905,
+                "Eierform": null
             },
             "geometry": {
                 "x": -26773.150098848506,
@@ -483,7 +515,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 900
+                "Type": 900,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33779.92436106189,
@@ -499,7 +532,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 905
+                "Type": 905,
+                "Eierform": null
             },
             "geometry": {
                 "x": -9765.604066966509,
@@ -515,7 +549,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 905
+                "Type": 905,
+                "Eierform": null
             },
             "geometry": {
                 "x": -34395.942640059046,
@@ -531,7 +566,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 905
+                "Type": 905,
+                "Eierform": null
             },
             "geometry": {
                 "x": -35035.46980796754,
@@ -547,7 +583,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 909
+                "Type": 909,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32290.098793767393,
@@ -563,7 +600,8 @@
                 "Gatenavn": "Vågsgata",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 906
+                "Type": 906,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33297.219413862214,
@@ -579,7 +617,8 @@
                 "Gatenavn": "Iglemyrveien",
                 "Husnummer": "3",
                 "Bokstav": null,
-                "Type": 906
+                "Type": 906,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32347.810536593082,
@@ -595,7 +634,8 @@
                 "Gatenavn": "Iglemyrveien",
                 "Husnummer": "3",
                 "Bokstav": null,
-                "Type": 906
+                "Type": 906,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32790.66677160165,
@@ -611,7 +651,8 @@
                 "Gatenavn": "Kvålkroken",
                 "Husnummer": "6",
                 "Bokstav": null,
-                "Type": 902
+                "Type": 902,
+                "Eierform": null
             },
             "geometry": {
                 "x": -35223.045031670365,
@@ -627,7 +668,8 @@
                 "Gatenavn": "Espelandsveien",
                 "Husnummer": "360",
                 "Bokstav": null,
-                "Type": 902
+                "Type": 902,
+                "Eierform": null
             },
             "geometry": {
                 "x": -28946.835893881274,
@@ -643,7 +685,8 @@
                 "Gatenavn": "Kvellurveien",
                 "Husnummer": "23",
                 "Bokstav": null,
-                "Type": 908
+                "Type": 908,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33890.84918909136,
@@ -659,7 +702,8 @@
                 "Gatenavn": "Jønningsheiveien",
                 "Husnummer": "42",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33730.942411347525,
@@ -675,7 +719,8 @@
                 "Gatenavn": "Frøyerveien",
                 "Husnummer": "16",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32115.610105169122,
@@ -691,7 +736,8 @@
                 "Gatenavn": "Lyngholen",
                 "Husnummer": "5",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33501.125117173884,
@@ -707,7 +753,8 @@
                 "Gatenavn": "Prinsens vei",
                 "Husnummer": "14",
                 "Bokstav": "A",
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32933.59194278915,
@@ -723,7 +770,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 101
+                "Type": 101,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33726.497303423006,
@@ -739,7 +787,8 @@
                 "Gatenavn": "Jønningsheiveien",
                 "Husnummer": "44",
                 "Bokstav": null,
-                "Type": 907
+                "Type": 907,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33903.09103489143,
@@ -755,7 +804,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 102
+                "Type": 102,
+                "Eierform": null
             },
             "geometry": {
                 "x": -7493.297487663047,
@@ -771,7 +821,8 @@
                 "Gatenavn": "Eddaveien",
                 "Husnummer": "25",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -31650.09402405366,
@@ -787,7 +838,8 @@
                 "Gatenavn": "Espedalsvegen",
                 "Husnummer": "156",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -10030.457213988819,
@@ -803,7 +855,8 @@
                 "Gatenavn": "Heigreveien",
                 "Husnummer": "403",
                 "Bokstav": null,
-                "Type": 102
+                "Type": 102,
+                "Eierform": null
             },
             "geometry": {
                 "x": -38103.23465384822,
@@ -819,7 +872,8 @@
                 "Gatenavn": "Espelandsveien",
                 "Husnummer": "364",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -28985.47390059929,
@@ -835,7 +889,8 @@
                 "Gatenavn": "Jærveien",
                 "Husnummer": "276",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -35653.290224346914,
@@ -851,7 +906,8 @@
                 "Gatenavn": "Apalstøveien",
                 "Husnummer": "64",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -16637.262465245207,
@@ -867,7 +923,8 @@
                 "Gatenavn": "Asheimveien",
                 "Husnummer": "45",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -34763.79864507343,
@@ -883,7 +940,8 @@
                 "Gatenavn": "Jønningsheiveien",
                 "Husnummer": "40",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -34010.163884071284,
@@ -899,7 +957,8 @@
                 "Gatenavn": "Lyngholen",
                 "Husnummer": "5",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33489.5771489779,
@@ -915,7 +974,8 @@
                 "Gatenavn": "Hanamyrveien",
                 "Husnummer": "21",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -31030.61754097417,
@@ -931,7 +991,8 @@
                 "Gatenavn": "Skaraveie",
                 "Husnummer": "100",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -31459.159032134106,
@@ -947,7 +1008,8 @@
                 "Gatenavn": "Prinsens vei",
                 "Husnummer": "14",
                 "Bokstav": "A",
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32902.182363948436,
@@ -963,7 +1025,8 @@
                 "Gatenavn": "Borgveien",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -26285.494079694734,
@@ -979,7 +1042,8 @@
                 "Gatenavn": "Borgveien",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -26226.227451525745,
@@ -995,7 +1059,8 @@
                 "Gatenavn": "Gamle Asheimvei",
                 "Husnummer": "9",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -34803.92615017062,
@@ -1011,7 +1076,8 @@
                 "Gatenavn": "Asperholen",
                 "Husnummer": "89",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -31636.787201208528,
@@ -1027,7 +1093,8 @@
                 "Gatenavn": "Holane",
                 "Husnummer": "3",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -30050.25501533691,
@@ -1043,7 +1110,8 @@
                 "Gatenavn": "Olsokveien",
                 "Husnummer": "1",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -35490.66061508842,
@@ -1059,7 +1127,8 @@
                 "Gatenavn": "Jønningsheiveien",
                 "Husnummer": "42",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33988.0523077579,
@@ -1075,7 +1144,8 @@
                 "Gatenavn": "Apalstøveien",
                 "Husnummer": "64",
                 "Bokstav": null,
-                "Type": 102
+                "Type": 102,
+                "Eierform": null
             },
             "geometry": {
                 "x": -16733.92410628352,
@@ -1091,7 +1161,8 @@
                 "Gatenavn": "Iglemyrveien",
                 "Husnummer": "3",
                 "Bokstav": null,
-                "Type": 102
+                "Type": 102,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32624.47620219481,
@@ -1107,7 +1178,8 @@
                 "Gatenavn": "Iglemyrveien",
                 "Husnummer": "3",
                 "Bokstav": null,
-                "Type": 100
+                "Type": 100,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32875.51406779152,
@@ -1123,7 +1195,8 @@
                 "Gatenavn": "Jønningsheiveien",
                 "Husnummer": "44",
                 "Bokstav": null,
-                "Type": 102
+                "Type": 102,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33864.12968893116,
@@ -1139,7 +1212,8 @@
                 "Gatenavn": "Asheimveien",
                 "Husnummer": "45",
                 "Bokstav": null,
-                "Type": 102
+                "Type": 102,
+                "Eierform": null
             },
             "geometry": {
                 "x": -34879.85143889929,
@@ -1155,7 +1229,8 @@
                 "Gatenavn": "Espelandsveien",
                 "Husnummer": "364",
                 "Bokstav": null,
-                "Type": 102
+                "Type": 102,
+                "Eierform": null
             },
             "geometry": {
                 "x": -28990.178633839358,
@@ -1171,7 +1246,8 @@
                 "Gatenavn": "Jønningsheiveien",
                 "Husnummer": "44",
                 "Bokstav": null,
-                "Type": 101
+                "Type": 101,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33871.52824225766,
@@ -1187,7 +1263,8 @@
                 "Gatenavn": "Iglemyrveien",
                 "Husnummer": "3",
                 "Bokstav": null,
-                "Type": 101
+                "Type": 101,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32714.169806245365,
@@ -1203,7 +1280,8 @@
                 "Gatenavn": "Haugen",
                 "Husnummer": "27",
                 "Bokstav": null,
-                "Type": 101
+                "Type": 101,
+                "Eierform": null
             },
             "geometry": {
                 "x": -34303.6209418365,
@@ -1219,7 +1297,8 @@
                 "Gatenavn": "\"Jønningsheiveien",
                 "Husnummer": "42",
                 "Bokstav": null,
-                "Type": 101
+                "Type": 101,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33675.030513492995,
@@ -1235,7 +1314,8 @@
                 "Gatenavn": "Lyngholen",
                 "Husnummer": "7",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33578.28399313835,
@@ -1251,7 +1331,8 @@
                 "Gatenavn": "Asheimveien",
                 "Husnummer": "45",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -34827.86501821666,
@@ -1267,7 +1348,8 @@
                 "Gatenavn": "Iglemyrveien",
                 "Husnummer": "3",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32411.863544484717,
@@ -1283,7 +1365,8 @@
                 "Gatenavn": "Jønningsheiveien",
                 "Husnummer": "47",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33904.11654563167,
@@ -1299,7 +1382,8 @@
                 "Gatenavn": "Prinsens vei",
                 "Husnummer": "14",
                 "Bokstav": "A",
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -32798.12059744622,
@@ -1315,7 +1399,8 @@
                 "Gatenavn": "Nøtteskjellveien",
                 "Husnummer": "9",
                 "Bokstav": null,
-                "Type": 201
+                "Type": 201,
+                "Eierform": null
             },
             "geometry": {
                 "x": -26031.01030370372,
@@ -1331,7 +1416,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 911
+                "Type": 911,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33854.70070332824,
@@ -1347,7 +1433,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 901
+                "Type": 901,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33847.49010182649,
@@ -1363,7 +1450,8 @@
                 "Gatenavn": "Bærheimveien",
                 "Husnummer": "39",
                 "Bokstav": null,
-                "Type": 910
+                "Type": 910,
+                "Eierform": 2
             },
             "geometry": {
                 "x": -35664.48114205594,
@@ -1379,7 +1467,8 @@
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
-                "Type": 912
+                "Type": 912,
+                "Eierform": null
             },
             "geometry": {
                 "x": -33957.77221377101,
