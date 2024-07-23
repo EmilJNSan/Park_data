@@ -1,5 +1,5 @@
 const jsonUrl = "https://Laila72.github.io/Park_data/bhg.json";
-const direct = "https://Laila72.github.io/bhage_kart/";
+const direct = "https://Laila72.github.io/Park_data/";
 const grunnkart = "https://services.geodataonline.no/arcgis/rest/services/Geocache_WMAS_WGS84/GeocacheBasis/MapServer/tile/{z}/{y}/{x}";
 const attribution_tag = '©️ Geodata AS, Kartverket, Geovekst og kommunene, OpenStreetMap';
 const marker_oransje = "css/images/icon/marker-icon_oransje.png";
