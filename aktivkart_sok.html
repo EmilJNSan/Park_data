@@ -108,18 +108,6 @@ function loadMarkers(data) {
             ]
         });
 
-        var searchBar = L.control.pinSearch({
-            position: 'topright',
-            placeholder: 'Search...',
-            buttonText: 'Search',
-            onSearch: function(query) {
-                console.log('Search query:', query);
-            },
-            searchBarWidth: '200px',
-            searchBarHeight: '30px',
-            maxSearchResults: 3
-        }).addTo(map);
-
         var overlays = {
             label: "<strong>"+"Aktiviteter"+"</strong>",
             children: [
@@ -180,6 +168,18 @@ function loadMarkers(data) {
         };
 
         L.control.layers.tree(overlays,null).addTo(map);
+
+        var searchBar = L.control.pinSearch({
+            position: 'topright',
+            placeholder: 'Search...',
+            buttonText: 'Search',
+            onSearch: function(query) {
+                console.log('Search query:', query);
+            },
+            searchBarWidth: '200px',
+            searchBarHeight: '30px',
+            maxSearchResults: 4
+        }).addTo(map);
     </script>
 </body>
 </html>
