@@ -62,7 +62,7 @@ function loadMarkers(data) {
                     popupAnchor: [0, -32]
                 });
 
-                var marker = L.marker([plass.geometry.latitude, plass.geometry.longitude], { icon: icon },{title:plass.attributes.Navn}).bindPopup(`
+                var marker = L.marker([plass.geometry.latitude, plass.geometry.longitude], { icon: icon,title:plass.attributes.Navn}).bindPopup(`
                     <a href="${plass.attributes.Url}" target="_blank"><h2>${plass.attributes.Navn}</h2></a> 
                     Adresse: ${plass.attributes.Gatenavn} ${plass.attributes.Husnummer} ${plass.attributes.Bokstav || ''}<br>
                     <a href="https://www.google.com/maps/dir/?api=1&destination=${plass.geometry.latitude},${plass.geometry.longitude}" target="_blank">Veibeskrivelse</a> <br>
