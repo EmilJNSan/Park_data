@@ -62,7 +62,7 @@ function loadMarkers(data) {
                     popupAnchor: [0, -32]
                 });
 
-                var marker = L.marker([plass.geometry.latitude, plass.geometry.longitude], { icon: icon }).bindPopup(`
+                var marker = L.marker([plass.geometry.latitude, plass.geometry.longitude], { icon: icon },{title:plass.attributes.Navn}).bindPopup(`
                     <a href="${plass.attributes.Url}" target="_blank"><h2>${plass.attributes.Navn}</h2></a> 
                     Adresse: ${plass.attributes.Gatenavn} ${plass.attributes.Husnummer} ${plass.attributes.Bokstav || ''}<br>
                     <a href="https://www.google.com/maps/dir/?api=1&destination=${plass.geometry.latitude},${plass.geometry.longitude}" target="_blank">Veibeskrivelse</a> <br>
@@ -169,34 +169,17 @@ function loadMarkers(data) {
 
         L.control.layers.tree(overlays,null).addTo(map);
 
-var searchBar = L.control.pinSearch({
-    position: 'topright',
-    placeholder: 'Search...',
-    buttonText: 'Search',
-    onSearch: function(query) {
-        console.log('Search query:', query);
-        var results = [];
-        allMarkers.forEach(function(marker) {
-            var navn = marker.data.attributes.Navn.toLowerCase();
-            if (navn.includes(query.toLowerCase())) {
-                results.push(marker);
-            }
-        });
-        console.log('Search results:', results);
-        if (results.length > 0) {
-            var group = L.featureGroup(results);
-            map.fitBounds(group.getBounds());
-            results.forEach(function(marker) {
-                marker.openPopup();
-            });
-        } else {
-            alert('No results found');
-        }
-    },
-    searchBarWidth: '200px',
-    searchBarHeight: '30px',
-    maxSearchResults: 4
-}).addTo(map);
+        var searchBar = L.control.pinSearch({
+            position: 'topright',
+            placeholder: 'Search....',
+            buttonText: 'Search',
+            onSearch: function(query) {
+                console.log('Search query:', query);
+            },
+            searchBarWidth: '200px',
+            searchBarHeight: '30px',
+            maxSearchResults: 4
+        }).addTo(map);
     </script>
 </body>
 </html>
