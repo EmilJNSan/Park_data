@@ -169,17 +169,34 @@ function loadMarkers(data) {
 
         L.control.layers.tree(overlays,null).addTo(map);
 
-        var searchBar = L.control.pinSearch({
-            position: 'topright',
-            placeholder: 'Search...',
-            buttonText: 'Search',
-            onSearch: function(query) {
-                console.log('Search query:', query);
-            },
-            searchBarWidth: '200px',
-            searchBarHeight: '30px',
-            maxSearchResults: 4
-        }).addTo(map);
+var searchBar = L.control.pinSearch({
+    position: 'topright',
+    placeholder: 'Search...',
+    buttonText: 'Search',
+    onSearch: function(query) {
+        console.log('Search query:', query);
+        var results = [];
+        allMarkers.forEach(function(marker) {
+            var navn = marker.data.attributes.Navn.toLowerCase();
+            if (navn.includes(query.toLowerCase())) {
+                results.push(marker);
+            }
+        });
+        console.log('Search results:', results);
+        if (results.length > 0) {
+            var group = L.featureGroup(results);
+            map.fitBounds(group.getBounds());
+            results.forEach(function(marker) {
+                marker.openPopup();
+            });
+        } else {
+            alert('No results found');
+        }
+    },
+    searchBarWidth: '200px',
+    searchBarHeight: '30px',
+    maxSearchResults: 4
+}).addTo(map);
     </script>
 </body>
 </html>
