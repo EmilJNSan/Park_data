@@ -7,11 +7,9 @@
     <link rel="stylesheet" href="css/leaflet.css"/>
     <link rel="stylesheet" href="css/MarkerCluster.css"/>
     <link rel="stylesheet" href="css/MarkerCluster.Default.css"/>
-    <link rel="stylesheet" href="css/Leaflet.PinSearch.css"/>
     <link rel="stylesheet" href="css/L.Control.Layers.Tree.css"/>
     <script src="js/leaflet.js"></script>
     <script src="js/Leaflet.PinSearch.js"></script>
-    <script src="js/leaflet.markercluster.js"></script>
     <script src="js/L.Control.Layers.Tree.js"></script>
     <script src="js/variables_akt.js"></script>
 
@@ -26,7 +24,9 @@
     <div class="mapboks">
         <div id="map"></div>
     </div>
+    <script src="js/leaflet.markercluster.js"><link rel="stylesheet" href="css/Leaflet.PinSearch.css"/></script>
     <script>
+        
         console.log(testtekst);
         console.log("Test kart variant 3 ");
         var blaatikon = L.icon({
@@ -177,26 +177,16 @@ function loadMarkers(data) {
     buttonText: 'Search',
     onSearch: function(query) {
         console.log('Search query:', query);
-
-        // Convert query to lowercase for case-insensitive search
         query = query.toLowerCase();
-
-        // Filter markers based on title
         var results = markers.filter(function(marker) {
             return marker.options.title.toLowerCase().includes(query);
         });
-
-        // Sort results based on title
         results.sort(function(a, b) {
             if (a.options.title < b.options.title) return -1;
             if (a.options.title > b.options.title) return 1;
             return 0;
         });
-
-        // Show search results
         console.log('Search results:', results);
-
-        // Optionally, you can implement logic to display search results on the map
     },
     searchBarWidth: '200px',
     searchBarHeight: '30px',
