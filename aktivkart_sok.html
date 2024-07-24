@@ -3,239 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karttest</title>
-    <link rel="stylesheet" href="css/leaflet.css"/>
-    <link rel="stylesheet" href="css/MarkerCluster.css"/>
-    <link rel="stylesheet" href="css/MarkerCluster.Default.css"/>
-    <link rel="stylesheet" href="css/Leaflet.PinSearch.css"/>
-    <link rel="stylesheet" href="css/L.Control.Layers.Tree.css"/>
-    <script src="js/leaflet.js"></script>
-    <script src="js/Leaflet.PinSearch.js"></script>
-    <script src="js/leaflet.markercluster.js"></script>
-    <script src="js/L.Control.Layers.Tree.js"></script>
-    <script src="js/variables_akt.js"></script>
-
-    <style>
-        #map { height: 100%; width: 100%; border-style: solid; border-width: 2px; }
-        .subtle { font-weight: bold; color: gray; }
-        body, html { margin: 0; padding: 0; height: 100%; }
-        .mapboks { height: 80%; width: 80%; margin: auto; }
-        .search-results {
-            position: absolute;
-            top: 40px;
-            right: 10px;
-            background: white;
-            border: 1px solid gray;
-            z-index: 1000;
-            max-height: 150px;
-            overflow-y: auto;
-            width: 200px;
-            display: none;
-        }
-        .search-results ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .search-results li {
-            padding: 5px;
-            cursor: pointer;
-        }
-        .search-results li:hover {
-            background: #ddd;
-        }
-    </style>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.pinsearch@1.0.5/src/Leaflet.PinSearch.css" crossorigin=""></script>
+    <title>Leaflet PinSearch Example</title>
 </head>
 <body>
-    <div class="mapboks">
-        <div id="map"></div>
-        <div class="search-results" id="search-results">
-            <ul></ul>
-        </div>
-    </div>
+    <div id="map" style="height: 400px;"></div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.pinsearch@1.0.5/src/Leaflet.PinSearch.js" crossorigin=""></script>
     <script>
-        console.log(testtekst);
-        console.log("Test kart variant 3 ");
-        var blaatikon = L.icon({
-            iconUrl: `${direct}${marker_blaa}`,
-            iconSize: [25, 41],
-            shadowSize: [25, 41]
-        });
+        var map = L.map('map').setView([51.505, -0.09], 13);
 
-        function imageExists(url, callback) {
-            var img = new Image();
-            img.onload = function() { callback(true); };
-            img.onerror = function() { callback(false); };
-            img.src = url;
-        }
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+            maxZoom: 18,
+        }).addTo(map);
 
-        function loadMarkers(data) {
-            var markers = [];
-            if (data.features && Array.isArray(data.features)) {
-                data.features.forEach(function (plass) {
-                    var type = plass.attributes.Type;
-                    var iconUrl = `${direct}css/images/icon/aktiv/${type}.png`;
+        // Dummy markers
+        L.marker([51.505, -0.09], { title: 'Marker 1' }).addTo(map);
+        L.marker([51.51, -0.1], { title: 'Marker 2' }).addTo(map);
+        L.marker([51.515, -0.09], { title: 'Marker 3' }).addTo(map);
+        L.marker([52.515, -0.09], { title: 'Marker 4' }).addTo(map);
 
-                    imageExists(iconUrl, function(exists) {
-                        if (!exists) {
-                            iconUrl = `${direct}css/images/icon/aktiv/999.png`;
-                        }
 
-                        var icon = L.icon({
-                            iconUrl: iconUrl,
-                            iconSize: [32, 32],
-                            iconAnchor: [16, 32],
-                            popupAnchor: [0, -32]
-                        });
-
-                        var marker = L.marker([plass.geometry.latitude, plass.geometry.longitude], {
-                            icon: icon,
-                            title: plass.attributes.Navn
-                        }).bindPopup(`
-                            <a href="${plass.attributes.Url}" target="_blank"><h2>${plass.attributes.Navn}</h2></a> 
-                            Adresse: ${plass.attributes.Gatenavn} ${plass.attributes.Husnummer} ${plass.attributes.Bokstav || ''}<br>
-                            <a href="https://www.google.com/maps/dir/?api=1&destination=${plass.geometry.latitude},${plass.geometry.longitude}" target="_blank">Veibeskrivelse</a> <br>
-                        `);
-                        marker.data = plass;
-                        
-                        markers.push(marker);
-                        try {
-                            eval("group_" + plass.attributes.Type + "_Cluster").addLayer(marker);
-                        } catch (error) {
-                            console.log(error);
-                            group_annet_Cluster.addLayer(marker);
-                        }
-                        group_all_Cluster.addLayer(marker);
-                    });
-                });
-            } else {
-                console.error('Data does not contain features array');
-            }
-            return markers;
-        }
-
-        var allMarkers = [];
-
-        fetch(jsonUrl)
-            .then(response => response.json())
-            .then(data => {
-                allMarkers = loadMarkers(data);
-            })
-            .catch(error => {
-                console.error('Error fetching the JSON data:', error);
-            });
-
-        var map = L.map('map', {
-            center: [58.85, 5.75],
-            zoom: 10,
-            layers: [
-                L.tileLayer(grunnkart, {
-                    maxZoom: 18,
-                    attribution: attribution_tag
-                }),
-                group_all_Cluster,
-            ]
-        });
-
-        var overlays = {
-            label: "<strong>"+"Aktiviteter"+"</strong>",
-            children: [
-                {
-                    label: "Alt",
-                    layer: group_all_Cluster
-                },
-                {
-                    label: "<b>"+"Fotballbaner"+"</b>",
-                    collapsed: true,
-                    children: [
-                        { label: "Kunstgress", layer: group_100_Cluster },
-                        { label: "Grus", layer: group_101_Cluster },
-                        { label: "Gress", layer: group_102_Cluster }
-                    ]
-                },
-                
-                {
-                    label: "<b>"+"Friidrett"+"</b>",
-                    collapsed: true,
-                    children: [
-                        { label: "Friidrettsbane", layer: group_907_Cluster },
-                        { label: "Idrettshall", layer: group_201_Cluster }
-                    ]
-                },
-                {
-                    label: "<b>"+"Svømmehaller"+"</b>",
-                    collapsed: true,
-                    children: [
-                        { label: "Helsebasseng", layer: group_300_Cluster },
-                        { label: "Svømmehall", layer: group_301_Cluster }
-                    ]
-                },
-                {
-                    label: "<b>"+"Sykkel"+"</b>",
-                    collapsed: true,
-                    children: [
-                        { label: "BMX-bane", layer: group_902_Cluster },
-                        { label: "Pumptrack", layer: group_908_Cluster },
-                        { label: "Sykkelopplæring", layer: group_900_Cluster }
-                    ]
-                },
-                {
-                    label: "<b>"+"Annet"+"</b>",
-                    collapsed: true,
-                    children: [
-                        { label: "Rideanlegg", layer: group_905_Cluster },
-                        { label: "Discgolf", layer: group_901_Cluster },
-                        { label: "Rulleski", layer: group_903_Cluster },
-                        { label: "Skatepark", layer: group_906_Cluster },
-                        { label: "Sandvolleyball", layer: group_911_Cluster },
-                        { label: "Tennisbane", layer: group_904_Cluster },
-                        { label: "Skytebane", layer: group_909_Cluster },
-                        { label: "Annet", layer: group_annet_Cluster }
-                    ]
-                }
-            ]
-        };
-
-        L.control.layers.tree(overlays,null).addTo(map);
-
+        // PinSearch component
         var searchBar = L.control.pinSearch({
             position: 'topright',
             placeholder: 'Search...',
             buttonText: 'Search',
             onSearch: function(query) {
                 console.log('Search query:', query);
-                query = query.toLowerCase();
-                var results = allMarkers.filter(function(marker) {
-                    return marker.options.title.toLowerCase().includes(query);
-                });
-                results.sort(function(a, b) {
-                    if (a.options.title < b.options.title) return -1;
-                    if (a.options.title > b.options.title) return 1;
-                    return 0;
-                });
-
-                var resultsContainer = document.getElementById('search-results');
-                var resultsList = resultsContainer.querySelector('ul');
-                resultsList.innerHTML = '';
-
-                if (results.length > 0) {
-                    results.forEach(function(result) {
-                        var listItem = document.createElement('li');
-                        listItem.textContent = result.options.title;
-                        listItem.onclick = function() {
-                            map.setView(result.getLatLng(), 15);
-                            result.openPopup();
-                        };
-                        resultsList.appendChild(listItem);
-                    });
-                    resultsContainer.style.display = 'block';
-                } else {
-                    resultsContainer.style.display = 'none';
-                }
+                // Handle the search query here
             },
             searchBarWidth: '200px',
             searchBarHeight: '30px',
-            maxSearchResults: 5
+            maxSearchResults: 3
         }).addTo(map);
     </script>
 </body>
