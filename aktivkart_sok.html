@@ -171,18 +171,37 @@ function loadMarkers(data) {
         };
 
         L.control.layers.tree(overlays,null).addTo(map);
-
         var searchBar = L.control.pinSearch({
-            position: 'topright',
-            placeholder: 'Search....',
-            buttonText: 'Search',
-            onSearch: function(query) {
-                console.log('Search query:', query);
-            },
-            searchBarWidth: '200px',
-            searchBarHeight: '30px',
-            maxSearchResults: 4
-        }).addTo(map);
+    position: 'topright',
+    placeholder: 'Search...',
+    buttonText: 'Search',
+    onSearch: function(query) {
+        console.log('Search query:', query);
+
+        // Convert query to lowercase for case-insensitive search
+        query = query.toLowerCase();
+
+        // Filter markers based on title
+        var results = markers.filter(function(marker) {
+            return marker.options.title.toLowerCase().includes(query);
+        });
+
+        // Sort results based on title
+        results.sort(function(a, b) {
+            if (a.options.title < b.options.title) return -1;
+            if (a.options.title > b.options.title) return 1;
+            return 0;
+        });
+
+        // Show search results
+        console.log('Search results:', results);
+
+        // Optionally, you can implement logic to display search results on the map
+    },
+    searchBarWidth: '200px',
+    searchBarHeight: '30px',
+    maxSearchResults: 5
+}).addTo(map);
     </script>
 </body>
 </html>
