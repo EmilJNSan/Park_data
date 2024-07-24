@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="css/leaflet.css"/>
     <link rel="stylesheet" href="css/MarkerCluster.css"/>
     <link rel="stylesheet" href="css/MarkerCluster.Default.css"/>
+    <link rel="stylesheet" href="css/Leaflet.PinSearch.css"/>
     <link rel="stylesheet" href="css/L.Control.Layers.Tree.css"/>
     <script src="js/leaflet.js"></script>
     <script src="js/Leaflet.PinSearch.js"></script>
+    <script src="js/leaflet.markercluster.js"></script>
     <script src="js/L.Control.Layers.Tree.js"></script>
     <script src="js/variables_akt.js"></script>
 
@@ -18,15 +20,40 @@
         .subtle { font-weight: bold; color: gray; }
         body, html { margin: 0; padding: 0; height: 100%; }
         .mapboks { height: 80%; width: 80%; margin: auto; }
+        .search-results {
+            position: absolute;
+            top: 40px;
+            right: 10px;
+            background: white;
+            border: 1px solid gray;
+            z-index: 1000;
+            max-height: 150px;
+            overflow-y: auto;
+            width: 200px;
+            display: none;
+        }
+        .search-results ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .search-results li {
+            padding: 5px;
+            cursor: pointer;
+        }
+        .search-results li:hover {
+            background: #ddd;
+        }
     </style>
 </head>
 <body>
     <div class="mapboks">
         <div id="map"></div>
+        <div class="search-results" id="search-results">
+            <ul></ul>
+        </div>
     </div>
-    <script src="js/leaflet.markercluster.js"><link rel="stylesheet" href="css/Leaflet.PinSearch.css"/></script>
     <script>
-        
         console.log(testtekst);
         console.log("Test kart variant 3 ");
         var blaatikon = L.icon({
@@ -35,58 +62,57 @@
             shadowSize: [25, 41]
         });
 
+        function imageExists(url, callback) {
+            var img = new Image();
+            img.onload = function() { callback(true); };
+            img.onerror = function() { callback(false); };
+            img.src = url;
+        }
 
-function imageExists(url, callback) {
-    var img = new Image();
-    img.onload = function() { callback(true); };
-    img.onerror = function() { callback(false); };
-    img.src = url;
-}
+        function loadMarkers(data) {
+            var markers = [];
+            if (data.features && Array.isArray(data.features)) {
+                data.features.forEach(function (plass) {
+                    var type = plass.attributes.Type;
+                    var iconUrl = `${direct}css/images/icon/aktiv/${type}.png`;
 
-function loadMarkers(data) {
-    var markers = [];
-    if (data.features && Array.isArray(data.features)) {
-        data.features.forEach(function (plass) {
-            var type = plass.attributes.Type;
-            var iconUrl = `${direct}css/images/icon/aktiv/${type}.png`;
+                    imageExists(iconUrl, function(exists) {
+                        if (!exists) {
+                            iconUrl = `${direct}css/images/icon/aktiv/999.png`;
+                        }
 
-            imageExists(iconUrl, function(exists) {
-                if (!exists) {
-                    iconUrl = '${direct}css/images/icon/aktiv/999.png';
-                }
+                        var icon = L.icon({
+                            iconUrl: iconUrl,
+                            iconSize: [32, 32],
+                            iconAnchor: [16, 32],
+                            popupAnchor: [0, -32]
+                        });
 
-                var icon = L.icon({
-                    iconUrl: iconUrl,
-                    iconSize: [32, 32],
-                    iconAnchor: [16, 32],
-                    popupAnchor: [0, -32]
+                        var marker = L.marker([plass.geometry.latitude, plass.geometry.longitude], {
+                            icon: icon,
+                            title: plass.attributes.Navn
+                        }).bindPopup(`
+                            <a href="${plass.attributes.Url}" target="_blank"><h2>${plass.attributes.Navn}</h2></a> 
+                            Adresse: ${plass.attributes.Gatenavn} ${plass.attributes.Husnummer} ${plass.attributes.Bokstav || ''}<br>
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=${plass.geometry.latitude},${plass.geometry.longitude}" target="_blank">Veibeskrivelse</a> <br>
+                        `);
+                        marker.data = plass;
+                        
+                        markers.push(marker);
+                        try {
+                            eval("group_" + plass.attributes.Type + "_Cluster").addLayer(marker);
+                        } catch (error) {
+                            console.log(error);
+                            group_annet_Cluster.addLayer(marker);
+                        }
+                        group_all_Cluster.addLayer(marker);
+                    });
                 });
-
-                var marker = L.marker([plass.geometry.latitude, plass.geometry.longitude], {
-                    icon: icon,
-                    title: plass.attributes.Navn
-                }).bindPopup(`
-                    <a href="${plass.attributes.Url}" target="_blank"><h2>${plass.attributes.Navn}</h2></a> 
-                    Adresse: ${plass.attributes.Gatenavn} ${plass.attributes.Husnummer} ${plass.attributes.Bokstav || ''}<br>
-                    <a href="https://www.google.com/maps/dir/?api=1&destination=${plass.geometry.latitude},${plass.geometry.longitude}" target="_blank">Veibeskrivelse</a> <br>
-                `);
-                marker.data = plass;
-                
-                markers.push(marker);
-                try {
-                    eval("group_" + plass.attributes.Type + "_Cluster").addLayer(marker);
-                } catch (error) {
-                    console.log(error);
-                    group_annet_Cluster.addLayer(marker);
-                }
-                group_all_Cluster.addLayer(marker);
-            });
-        });
-    } else {
-        console.error('Data does not contain features array');
-    }
-    return markers;
-}
+            } else {
+                console.error('Data does not contain features array');
+            }
+            return markers;
+        }
 
         var allMarkers = [];
 
@@ -171,27 +197,46 @@ function loadMarkers(data) {
         };
 
         L.control.layers.tree(overlays,null).addTo(map);
+
         var searchBar = L.control.pinSearch({
-    position: 'topright',
-    placeholder: 'Search...',
-    buttonText: 'Search',
-    onSearch: function(query) {
-        console.log('Search query:', query);
-        query = query.toLowerCase();
-        var results = markers.filter(function(marker) {
-            return marker.options.title.toLowerCase().includes(query);
-        });
-        results.sort(function(a, b) {
-            if (a.options.title < b.options.title) return -1;
-            if (a.options.title > b.options.title) return 1;
-            return 0;
-        });
-        console.log('Search results:', results);
-    },
-    searchBarWidth: '200px',
-    searchBarHeight: '30px',
-    maxSearchResults: 5
-}).addTo(map);
+            position: 'topright',
+            placeholder: 'Search...',
+            buttonText: 'Search',
+            onSearch: function(query) {
+                console.log('Search query:', query);
+                query = query.toLowerCase();
+                var results = allMarkers.filter(function(marker) {
+                    return marker.options.title.toLowerCase().includes(query);
+                });
+                results.sort(function(a, b) {
+                    if (a.options.title < b.options.title) return -1;
+                    if (a.options.title > b.options.title) return 1;
+                    return 0;
+                });
+
+                var resultsContainer = document.getElementById('search-results');
+                var resultsList = resultsContainer.querySelector('ul');
+                resultsList.innerHTML = '';
+
+                if (results.length > 0) {
+                    results.forEach(function(result) {
+                        var listItem = document.createElement('li');
+                        listItem.textContent = result.options.title;
+                        listItem.onclick = function() {
+                            map.setView(result.getLatLng(), 15);
+                            result.openPopup();
+                        };
+                        resultsList.appendChild(listItem);
+                    });
+                    resultsContainer.style.display = 'block';
+                } else {
+                    resultsContainer.style.display = 'none';
+                }
+            },
+            searchBarWidth: '200px',
+            searchBarHeight: '30px',
+            maxSearchResults: 5
+        }).addTo(map);
     </script>
 </body>
 </html>
