@@ -24,7 +24,12 @@
     <script src="js/variables_bhage.js"></script>
     <script>
         console.log(testtekst);
-        
+
+        // Define cluster groups
+        var allCluster = L.markerClusterGroup();
+        var publicCluster = L.markerClusterGroup();
+        var privateCluster = L.markerClusterGroup();
+        var openCluster = L.markerClusterGroup();
 
         function loadMarkers(data) {
             var markers = [];
@@ -53,7 +58,7 @@
                     `);
                     marker.data = plass;
                     markers.push(marker);
-                    allcluster.addLayer(marker);
+                    allCluster.addLayer(marker);
                     switch (plass.attributes.Filter) {
                         case 1:
                             publicCluster.addLayer(marker);
@@ -75,7 +80,7 @@
         }
 
         function clearMarkers() {
-            allcluster.clearLayers();
+            allCluster.clearLayers();
             publicCluster.clearLayers();
             privateCluster.clearLayers();
             openCluster.clearLayers();
@@ -86,7 +91,7 @@
         fetch(jsonUrl)
             .then(response => response.json())
             .then(data => {
-                clearMarkers();
+                clearMarkers(); // Clear old markers before adding new ones
                 allMarkers = loadMarkers(data);
             })
             .catch(error => {
@@ -102,22 +107,18 @@
                     minZoom: 8,
                     attribution: attribution_tag
                 }),
-                allcluster
+                allCluster // Only add the initial layer
             ]
         });
-        map.addLayer(allcluster);
-        map.addLayer(publicCluster);
-        map.addLayer(privateCluster);
-        map.addLayer(openCluster);
+
         let overlays = {
-            "Alle barnehager": allcluster,
+            "Alle barnehager": allCluster,
             "Offentlige": publicCluster,
             "Private": privateCluster,
             "Åpne": openCluster
         };
 
-        L.control.layers(null,overlays, { collapsed: false }).addTo(map);
+        L.control.layers(null, overlays, { collapsed: false }).addTo(map);
     </script>
 </body>
 </html>
-
