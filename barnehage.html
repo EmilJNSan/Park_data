@@ -25,14 +25,28 @@
     <script src="js/variables_bhage.js"></script>
     <script>
         console.log(testtekst);
+        
+        var map = L.map('map', {
+            center: [58.85, 5.75],
+            zoom: 9,
+            layers: [
+                L.tileLayer(grunnkart, {
+                    maxZoom: 18,
+                    minZoom: 8,
+                    attribution: attribution_tag
+                }), 
+            ]
+        });
 
-        var mcgLayerSupportGroup = L.markerClusterGroup.layerSupport(); // Kan feile hvis plugin ikke er lastet
+        var mcgLayerSupportGroup = L.markerClusterGroup.layerSupport(),
+            publicCluster = L.layergroup(),
+            privateCluster = L.layergroup(),
+            openCluster = L.layergroup(),
+            allcluster = L.layergroup(),
+            control = L.control.layers(null, null, { collapsed: false }),
+            i, a, title, marker;
 
-        var publicCluster = L.markerClusterGroup();
-        var privateCluster = L.markerClusterGroup();
-        var openCluster = L.markerClusterGroup();
-
-       
+        mcgLayerSupportGroup.addTo(map);
 
         function loadMarkers(data) {
             if (data.features && Array.isArray(data.features)) {
@@ -78,34 +92,17 @@
             }
         }
 
-        function clearMarkers() {
-            publicCluster.clearLayers();
-            privateCluster.clearLayers();
-            openCluster.clearLayers();
-        }
-
         fetch(jsonUrl)
             .then(response => response.json())
             .then(data => {
-                clearMarkers(); // Clear old markers before adding new ones
                 loadMarkers(data);
             })
             .catch(error => {
                 console.error('Error fetching the JSON data:', error);
             });
 
-        var map = L.map('map', {
-            center: [58.85, 5.75],
-            zoom: 9,
-            layers: [
-                L.tileLayer(grunnkart, {
-                    maxZoom: 18,
-                    minZoom: 8,
-                    attribution: attribution_tag
-                }),
-                mcgLayerSupportGroup 
-            ]
-        });
+
+        
          mcgLayerSupportGroup.checkIn([publicCluster, privateCluster, openCluster]);
 
         control.addOverlay(publicCluster, 'offentlig');
