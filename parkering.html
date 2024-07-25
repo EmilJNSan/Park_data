@@ -38,6 +38,7 @@
         });
 
         var mcgLayerSupportGroup = L.markerClusterGroup.layerSupport(),
+            alle_lag = L.layerGroup(),
             lade_lag = L.layerGroup(),
             hc_lag = L.layerGroup(),
             mc_lag = L.layerGroup(),
@@ -78,6 +79,7 @@
                 `);
                 marker.data = plass;
                 markers.push(marker);
+                alle_lag.addLayer(marker);
                 if(plass.aktivVersjon.antallLadeplasser >0){lade_lag.addLayer(marker)}
                 if(plass.aktivVersjon.antallForflytningshemmede > 0){hc_lag.addLayer(marker)}
             });
@@ -101,7 +103,8 @@
         polygon.bindPopup("Parkering langs vei forbudt");
         veiparkeringsforbud.addLayer(polygon);
         veiparkeringsforbud.addLayer(polygon2);
-        mcgLayerSupportGroup.checkIn([lade_lag, mc_lag, hc_lag]);
+        mcgLayerSupportGroup.checkIn([alle_lag,lade_lag, mc_lag, hc_lag]);
+        control.addBaseLayer(alle_lag,'alle plasser');
         control.addBaseLayer(lade_lag,'Ladeplasser');
         control.addBaseLayer(mc_lag, ' MC parkering');
         control.addBaseLayer(hc_lag, 'HC parkering');
