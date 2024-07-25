@@ -24,6 +24,26 @@
     <script src="js/variables_parkdata.js"></script>
     <script>
         console.log(testtekst)
+        var map = L.map('map', {
+            center: [58.85, 5.75],
+            zoom: 9,
+            layers: [
+                L.tileLayer(grunnkart, {
+                    maxZoom: 18,
+                    attribution: attribution_tag
+                }),
+                veiparkeringsforbud
+            ]
+        });
+
+        var mcgLayerSupportGroup = L.markerClusterGroup.layerSupport(),
+            lade_lag = L.layerGroup(),
+            hc_lag = L.layerGroup(),
+            mc_lag = L.layerGroup(),
+            control = L.control.layers(null, null, { collapsed: false }),
+            i, a, title, marker;
+
+        mcgLayerSupportGroup.addTo(map);
 
         function load_mcmarker(mc) {
             var mcMarkers = [];
@@ -39,7 +59,7 @@
 
         var mcMarkers = load_mcmarker(mc);
         var mcLayer = L.layerGroup(mcMarkers);
-        mc_cluster.addLayers(mcMarkers);
+        mc_lag.addLayers(mcMarkers);
         
 
         function loadMarkers(data) {
@@ -62,9 +82,8 @@
                 `);
                 marker.data = plass;
                 markers.push(marker);
-                alle_cluster.addLayer(marker)
-                if(plass.aktivVersjon.antallLadeplasser >0){lade_cluster.addLayer(marker)}
-                if(plass.aktivVersjon.antallForflytningshemmede > 0){hc_cluster.addLayer(marker)}
+                if(plass.aktivVersjon.antallLadeplasser >0){lade_lag.addLayer(marker)}
+                if(plass.aktivVersjon.antallForflytningshemmede > 0){hc_lag.addLayer(marker)}
             });
 
                     
@@ -82,18 +101,6 @@
                 console.error('Error fetching the JSON data:', error);
             });
 
-        var map = L.map('map', {
-            center: [58.85, 5.75],
-            zoom: 9,
-            layers: [
-                L.tileLayer(grunnkart, {
-                    maxZoom: 18,
-                    attribution: attribution_tag
-                }),
-                alle_cluster,
-                veiparkeringsforbud
-            ]
-        });
         polygon2.bindPopup("Parkering langs vei forbudt");
         polygon.bindPopup("Parkering langs vei forbudt");
         veiparkeringsforbud.addLayer(polygon);
@@ -105,8 +112,13 @@
             "MC-parkering": mc_cluster
         };
 
-        let overlaysnede = {"Veiparkering forbudt": veiparkeringsforbud};
-        L.control.layers(overlaysoppe, overlaysnede, {collapsed: true}).addTo(map);
+                 mcgLayerSupportGroup.checkIn([lade_lag, mc_lag, hc_lag]);
+
+        control.addBaseLayer(lade_lag,'Ladeplasser');
+        control.addBaseLayer(mc_lag, ' MC parkering');
+        control.addBaseLayer(hc_lag, 'HC parkering');
+        control.addTo(map);
+
     </script>
 </body>
 </html>
