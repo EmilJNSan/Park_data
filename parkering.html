@@ -47,17 +47,15 @@
         mcgLayerSupportGroup.addTo(map);
 
         function load_mcmarker(mc) {
-            var mcMarkers = [];
             mc.forEach(function(mcplass) {
                 var mcMarker = L.marker([mcplass[0], mcplass[1]], { icon: mcikon }).bindPopup(`
                     <h2>MC-parkering</h2>
                     <a href="https://www.google.com/maps/dir/?api=1&destination=${mcplass[0]},${mcplass[1]}" target="_blank">Veibeskrivelse</a> <br>
                 `);
-                mcMarkers.addLayer(mcMarker);
+                mc_lag.addLayer(mcMarker);
             });
-            return mcMarkers;
         }
-        mc_lag = load_mcmarker(mc);
+        load_mcmarker(mc);
         
 
         function loadMarkers(data) {
