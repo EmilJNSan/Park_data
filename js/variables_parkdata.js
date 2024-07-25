@@ -12,23 +12,6 @@ const testtekst = "test ok";
 
 var veiparkeringsforbud = L.layerGroup();
 
-var alle_cluster = L.markerClusterGroup({
-    maxClusterRadius: 55,
-    disableClusteringAtZoom: 16
-});
-var hc_cluster = L.markerClusterGroup({
-    maxClusterRadius: 55,
-    disableClusteringAtZoom: 16
-});
-var mc_cluster = L.markerClusterGroup({
-    maxClusterRadius: 55,
-    disableClusteringAtZoom: 16
-});
-var lade_cluster = L.markerClusterGroup({
-    maxClusterRadius: 55,
-    disableClusteringAtZoom: 16
-});
-
 var svartikon = L.icon({
     iconUrl: `${direct}${marker_svart}`,
     shadowUrl: `${direct}${shadow}`,
