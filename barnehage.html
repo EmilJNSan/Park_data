@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/MarkerCluster.Default.css"/>
     <script src="js/leaflet.js"></script>
     <script src="js/leaflet.markercluster.js"></script>
-    <script src="https://unpkg.com/leaflet.markercluster.layersupport@2.0.1/dist/leaflet.markercluster.layersupport-src.js"></script>
+    <script src="js/leaflet.markercluster.layersupport.js"></script>
     <style>
         #map { height: 100%; width: 100%; border-style: solid; border-width: 2px; }
         .subtle { font-weight: bold; color: gray; }
@@ -26,10 +26,21 @@
     <script>
         console.log(testtekst);
 
+        // Sjekk at nødvendige variabler er definert
+        if (typeof grunnkart === 'undefined' || typeof attribution_tag === 'undefined' || typeof jsonUrl === 'undefined') {
+            console.error('Nødvendige variabler er ikke definert.');
+        }
+
+        // Opprett et mcgLayerSupportGroup
         var mcgLayerSupportGroup = L.markerClusterGroup.layerSupport();
+
+        // Definer marker cluster-grupper
         var publicCluster = L.markerClusterGroup();
         var privateCluster = L.markerClusterGroup();
         var openCluster = L.markerClusterGroup();
+
+        // Sjekk inn grupper i mcgLayerSupportGroup
+        mcgLayerSupportGroup.checkIn([publicCluster, privateCluster, openCluster]);
 
         function loadMarkers(data) {
             if (data.features && Array.isArray(data.features)) {
@@ -84,13 +95,12 @@
         fetch(jsonUrl)
             .then(response => response.json())
             .then(data => {
-                clearMarkers();
+                clearMarkers(); // Clear old markers before adding new ones
                 loadMarkers(data);
             })
             .catch(error => {
                 console.error('Error fetching the JSON data:', error);
             });
-        mcgLayerSupportGroup.checkIn([publicCluster, privateCluster, openCluster]);
 
         var map = L.map('map', {
             center: [58.85, 5.75],
@@ -101,7 +111,7 @@
                     minZoom: 8,
                     attribution: attribution_tag
                 }),
-                mcgLayerSupportGroup
+                mcgLayerSupportGroup // Add the mcgLayerSupportGroup to the map
             ]
         });
 
@@ -111,7 +121,8 @@
             "Åpne": openCluster
         };
 
-        L.control.layers( overlays,null, { collapsed: false }).addTo(map);
+        L.control.layers(null, overlays, { collapsed: false }).addTo(map);
     </script>
 </body>
 </html>
+
