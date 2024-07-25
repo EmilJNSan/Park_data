@@ -53,13 +53,11 @@
                     <h2>MC-parkering</h2>
                     <a href="https://www.google.com/maps/dir/?api=1&destination=${mcplass[0]},${mcplass[1]}" target="_blank">Veibeskrivelse</a> <br>
                 `);
-                mcMarkers.push(mcMarker);
+                mcMarkers.addLayer(mcMarker);
             });
             return mcMarkers;
         }
-
-        var mcMarkers = load_mcmarker(mc);
-        mc_lag.addLayers(mcMarkers);
+        mc_lag = load_mcmarker(mc);
         
 
         function loadMarkers(data) {
