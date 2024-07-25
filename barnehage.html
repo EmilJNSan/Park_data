@@ -105,7 +105,7 @@
         
          mcgLayerSupportGroup.checkIn([publicCluster, privateCluster, openCluster]);
 
-        control.addOverlay('offentlig', publicCluster);
+        control.addOverlay( publicCluster,'offentlig');
         control.addOverlay(privateCluster, ' privateCluster');
         control.addOverlay(openCluster, 'openCluster');
         control.addTo(map);
