@@ -103,7 +103,10 @@
                 allcluster
             ]
         });
-
+        map.addLayer(allcluster);
+        map.addLayer(publicCluster);
+        map.addLayer(privateCluster);
+        map.addLayer(openCluster);
         let overlays = {
             "Alle barnehager": allcluster,
             "Offentlige": publicCluster,
