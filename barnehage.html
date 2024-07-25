@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/leaflet.css"/>
     <link rel="stylesheet" href="css/MarkerCluster.css"/>
     <link rel="stylesheet" href="css/MarkerCluster.Default.css"/>
-    <script src= "js/leaflet.js"></script>
-    <script src= "js/leaflet.markercluster.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet.markercluster.js"></script>
     <style>
         #map { height: 100%; width: 100%; border-style: solid; border-width: 2px; }
         .subtle { font-weight: bold; color: gray; }
@@ -22,7 +22,7 @@
     </div>
     <script src="js/variables_bhage.js"></script>
     <script>
-        console.log(testtekst)
+        console.log(testtekst);
 
         function loadMarkers(data) {
             var markers = [];
@@ -48,11 +48,10 @@
                         <a href="${plass.attributes.Url}" target="_blank"><h2>${plass.attributes.Navn}</h2></a> 
                         Adresse: ${plass.attributes.Gatenavn} ${plass.attributes.Husnummer} ${plass.attributes.Bokstav || ''}<br>
                         <a href="https://www.google.com/maps/dir/?api=1&destination=${plass.geometry.latitude},${plass.geometry.longitude}" target="_blank">Veibeskrivelse</a> <br>
-
                     `);
                     marker.data = plass;
                     markers.push(marker);
-                    allcluster.addLayer(marker)
+                    allcluster.addLayer(marker);
                     switch (plass.attributes.Filter) {
                         case 1:
                             publicCluster.addLayer(marker);
@@ -65,9 +64,7 @@
                             break;
                         default:
                             break;
-                        
                     }
-                    
                 });
             } else {
                 console.error('Data does not contain features array');
@@ -75,11 +72,19 @@
             return markers;
         }
 
+        function clearMarkers() {
+            allcluster.clearLayers();
+            publicCluster.clearLayers();
+            privateCluster.clearLayers();
+            openCluster.clearLayers();
+        }
+
         var allMarkers = [];
 
         fetch(jsonUrl)
             .then(response => response.json())
             .then(data => {
+                clearMarkers();
                 allMarkers = loadMarkers(data);
             })
             .catch(error => {
@@ -92,10 +97,10 @@
             layers: [
                 L.tileLayer(grunnkart, {
                     maxZoom: 18,
-                    minZoom:8,
+                    minZoom: 8,
                     attribution: attribution_tag
                 }),
-                allcluster,
+                allcluster
             ]
         });
 
@@ -106,7 +111,7 @@
             "Åpne": openCluster
         };
 
-        L.control.layers(overlays, null, {collapsed: false}).addTo(map);
+        L.control.layers(overlays, null, { collapsed: false }).addTo(map);
     </script>
 </body>
 </html>
