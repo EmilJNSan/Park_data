@@ -12,56 +12,44 @@
     <script src="https://unpkg.com/leaflet.markercluster.layersupport@2.0.1/dist/leaflet.markercluster.layersupport-src.js"></script>
     <style>
         #map { height: 100%; width: 100%; border-style: solid; border-width: 2px; }
-        .subtle { font-weight: bold; color: gray; }
         body, html { margin: 0; padding: 0; height: 100%; }
         .mapboks { height: 80%; width: 80%; margin: auto; }
     </style>
 </head>
 <body>
-    <h1>Feil, ikke klar til bruk</h1>
+    <h1>Karttest</h1>
     <div class="mapboks">
         <div id="map"></div>
     </div>
-    <script src="js/variables_bhage.js"></script>
     <script>
-        console.log(testtekst);
+        // Kontroller at alle nødvendige variabler og objekter er definert
+        const grunnkart = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'; // Eksempel URL
+        const attribution_tag = '© OpenStreetMap contributors';
+        const jsonUrl = 'path/to/your/data.json'; // Erstatt med din URL
 
-        // Sjekk at nødvendige variabler er definert
-        if (typeof grunnkart === 'undefined' || typeof attribution_tag === 'undefined' || typeof jsonUrl === 'undefined') {
-            console.error('Nødvendige variabler er ikke definert.');
-        }
+        // Definer ikoner (erstatte med dine ikoner)
+        const gronikon = L.icon({ iconUrl: 'path/to/gronikon.png' });
+        const blaatikon = L.icon({ iconUrl: 'path/to/blaatikon.png' });
+        const oransjeikon = L.icon({ iconUrl: 'path/to/oransjeikon.png' });
 
-        // Opprett et mcgLayerSupportGroup
-        var mcgLayerSupportGroup = L.markerClusterGroup.layerSupport();
+        // Opprett MarkerClusterGroup med layerSupport
+        const mcgLayerSupportGroup = L.markerClusterGroup.layerSupport();
+        const publicCluster = L.markerClusterGroup();
+        const privateCluster = L.markerClusterGroup();
+        const openCluster = L.markerClusterGroup();
 
-        // Definer marker cluster-grupper
-        var publicCluster = L.markerClusterGroup();
-        var privateCluster = L.markerClusterGroup();
-        var openCluster = L.markerClusterGroup();
-
-        // Sjekk inn grupper i mcgLayerSupportGroup
         mcgLayerSupportGroup.checkIn([publicCluster, privateCluster, openCluster]);
 
         function loadMarkers(data) {
             if (data.features && Array.isArray(data.features)) {
                 data.features.forEach(function (plass) {
-                    var icon;
-                    switch (plass.attributes.Filter) {
-                        case 1:
-                            icon = gronikon;
-                            break;
-                        case 2:
-                            icon = blaatikon;
-                            break;
-                        case 3:
-                            icon = oransjeikon;
-                            break;
-                        default:
-                            icon = blaatikon;
-                            break;
-                    }
+                    const icon = {
+                        1: gronikon,
+                        2: blaatikon,
+                        3: oransjeikon
+                    }[plass.attributes.Filter] || blaatikon;
 
-                    var marker = L.marker([plass.geometry.latitude, plass.geometry.longitude], { icon: icon }).bindPopup(`
+                    const marker = L.marker([plass.geometry.latitude, plass.geometry.longitude], { icon: icon }).bindPopup(`
                         <a href="${plass.attributes.Url}" target="_blank"><h2>${plass.attributes.Navn}</h2></a> 
                         Adresse: ${plass.attributes.Gatenavn} ${plass.attributes.Husnummer} ${plass.attributes.Bokstav || ''}<br>
                         <a href="https://www.google.com/maps/dir/?api=1&destination=${plass.geometry.latitude},${plass.geometry.longitude}" target="_blank">Veibeskrivelse</a> <br>
@@ -102,7 +90,7 @@
                 console.error('Error fetching the JSON data:', error);
             });
 
-        var map = L.map('map', {
+        const map = L.map('map', {
             center: [58.85, 5.75],
             zoom: 9,
             layers: [
@@ -111,11 +99,15 @@
                     minZoom: 8,
                     attribution: attribution_tag
                 }),
-                mcgLayerSupportGroup // Add the mcgLayerSupportGroup to the map
+                mcgLayerSupportGroup // Legg til mcgLayerSupportGroup på kartet
             ]
         });
 
-        let overlays = {
+        map.addLayer(publicCluster);
+        map.addLayer(privateCluster);
+        map.addLayer(openCluster);
+
+        const overlays = {
             "Offentlige": publicCluster,
             "Private": privateCluster,
             "Åpne": openCluster
@@ -125,4 +117,3 @@
     </script>
 </body>
 </html>
-
