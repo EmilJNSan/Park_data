@@ -101,15 +101,7 @@
         polygon.bindPopup("Parkering langs vei forbudt");
         veiparkeringsforbud.addLayer(polygon);
         veiparkeringsforbud.addLayer(polygon2);
-        let overlaysoppe = {
-            "Alle plasser": alle_cluster,
-            "Ladeplasser":  lade_cluster,
-            "HC-parkering": hc_cluster,
-            "MC-parkering": mc_cluster
-        };
-
-                 mcgLayerSupportGroup.checkIn([lade_lag, mc_lag, hc_lag]);
-
+        mcgLayerSupportGroup.checkIn([lade_lag, mc_lag, hc_lag]);
         control.addBaseLayer(lade_lag,'Ladeplasser');
         control.addBaseLayer(mc_lag, ' MC parkering');
         control.addBaseLayer(hc_lag, 'HC parkering');
