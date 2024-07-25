@@ -32,7 +32,7 @@
         var privateCluster = L.markerClusterGroup();
         var openCluster = L.markerClusterGroup();
 
-        mcgLayerSupportGroup.checkIn([publicCluster, privateCluster, openCluster]);
+       
 
         function loadMarkers(data) {
             if (data.features && Array.isArray(data.features)) {
@@ -103,18 +103,16 @@
                     minZoom: 8,
                     attribution: attribution_tag
                 }),
-                mcgLayerSupportGroup // Add the mcgLayerSupportGroup to the map
+                mcgLayerSupportGroup 
             ]
         });
+         mcgLayerSupportGroup.checkIn([publicCluster, privateCluster, openCluster]);
 
-        let overlays = {
-            "alle":mcgLayerSupportGroup,
-            "Offentlige": publicCluster,
-            "Private": privateCluster,
-            "Åpne": openCluster
-        };
-
-        L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+        control.addOverlay(publicCluster, 'offentlig');
+        control.addOverlay(privateCluster, ' privateCluster');
+        control.addOverlay(openCluster, 'openCluster');
+        control.addTo(map);
+        
     </script>
 </body>
 </html>
