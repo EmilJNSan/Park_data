@@ -31,8 +31,6 @@
         var privateCluster = L.markerClusterGroup();
         var openCluster = L.markerClusterGroup();
 
-        mcgLayerSupportGroup.checkIn([publicCluster, privateCluster, openCluster]);
-
         function loadMarkers(data) {
             if (data.features && Array.isArray(data.features)) {
                 data.features.forEach(function (plass) {
@@ -92,6 +90,7 @@
             .catch(error => {
                 console.error('Error fetching the JSON data:', error);
             });
+        mcgLayerSupportGroup.checkIn([publicCluster, privateCluster, openCluster]);
 
         var map = L.map('map', {
             center: [58.85, 5.75],
