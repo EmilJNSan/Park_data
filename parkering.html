@@ -58,7 +58,6 @@
         }
         load_mcmarker(mc);
         
-
         function loadMarkers(data) {
             var markers = [];
             data.forEach(function (plass) {
@@ -80,20 +79,19 @@
                 marker.data = plass;
                 markers.push(marker);
                 alle_lag.addLayer(marker);
-                if(plass.aktivVersjon.antallLadeplasser >0){lade_lag.addLayer(marker)}
-                if(plass.aktivVersjon.antallForflytningshemmede > 0){hc_lag.addLayer(marker)}
+                if(plass.aktivVersjon.antallLadeplasser > 0){ lade_lag.addLayer(marker) }
+                if(plass.aktivVersjon.antallForflytningshemmede > 0){ hc_lag.addLayer(marker) }
             });
-
-                    
-                };
-
+        }
 
         var allMarkers = [];
 
         fetch(jsonUrl)
             .then(response => response.json())
             .then(data => {
-                allMarkers = loadMarkers(data);
+                loadMarkers(data);
+                // Add the default layer to the map after markers are loaded
+                map.addLayer(alle_lag);
             })
             .catch(error => {
                 console.error('Error fetching the JSON data:', error);
@@ -103,16 +101,13 @@
         polygon.bindPopup("Parkering langs vei forbudt");
         veiparkeringsforbud.addLayer(polygon);
         veiparkeringsforbud.addLayer(polygon2);
-        mcgLayerSupportGroup.checkIn([alle_lag,lade_lag, mc_lag, hc_lag]);
-        control.addBaseLayer(alle_lag,'alle plasser');
-        control.addBaseLayer(lade_lag,'Ladeplasser');
+        mcgLayerSupportGroup.checkIn([alle_lag, lade_lag, mc_lag, hc_lag]);
+        control.addBaseLayer(alle_lag, 'alle plasser');
+        control.addBaseLayer(lade_lag, 'Ladeplasser');
         control.addOverlay(mc_lag, ' MC parkering');
-        control.addOverlay(veiparkeringsforbud,'veiparkeringsforbud');
+        control.addOverlay(veiparkeringsforbud, 'veiparkeringsforbud');
         control.addBaseLayer(hc_lag, 'HC parkering');
         control.addTo(map);
-
     </script>
 </body>
 </html>
-
-
