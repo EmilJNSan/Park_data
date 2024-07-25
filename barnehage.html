@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +41,7 @@
             publicCluster = L.layerGroup(),
             privateCluster = L.layerGroup(),
             openCluster = L.layerGroup(),
-            allcluster = L.layerGroup(),
+            allCluster = L.layerGroup(),
             control = L.control.layers(null, null, { collapsed: false }),
             i, a, title, marker;
 
@@ -73,6 +72,7 @@
                         <a href="https://www.google.com/maps/dir/?api=1&destination=${plass.geometry.latitude},${plass.geometry.longitude}" target="_blank">Veibeskrivelse</a> <br>
                     `);
                     marker.data = plass;
+                    allCluster.addLayer(marker);
                     switch (plass.attributes.Filter) {
                         case 1:
                             publicCluster.addLayer(marker);
@@ -96,20 +96,18 @@
             .then(response => response.json())
             .then(data => {
                 loadMarkers(data);
+                map.addLayer(allCluster);
             })
             .catch(error => {
                 console.error('Error fetching the JSON data:', error);
             });
 
-
-        
-         mcgLayerSupportGroup.checkIn([publicCluster, privateCluster, openCluster]);
-
-        control.addBaseLayer( publicCluster,'offentlig');
-        control.addBaseLayer(privateCluster, ' privateCluster');
-        control.addBaseLayer(openCluster, 'openCluster');
+        mcgLayerSupportGroup.checkIn([allCluster, publicCluster, privateCluster, openCluster]);
+        control.addBaseLayer(allCluster, 'Alle barnehager');
+        control.addBaseLayer(publicCluster, 'Offentlig');
+        control.addBaseLayer(privateCluster, 'Privat');
+        control.addBaseLayer(openCluster, 'Åpen');
         control.addTo(map);
-        
     </script>
 </body>
 </html>
