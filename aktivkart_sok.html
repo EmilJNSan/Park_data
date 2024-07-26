@@ -131,7 +131,7 @@
             var objectId = getValidatedUrlParameter('objectid');
             if (objectId !== null && markers[objectId]) {
                 var marker = markers[objectId];
-                map.setView(marker.getLatLng(), 10);
+                map.setView(marker.getLatLng(), 18);
                 marker.openPopup();
             }
         }
