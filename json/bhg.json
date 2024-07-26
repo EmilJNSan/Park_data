@@ -8,6 +8,11 @@
     },
     "fields": [
         {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "type": "esriFieldTypeOID"
+        },
+        {
             "name": "Navn",
             "alias": "Navn",
             "type": "esriFieldTypeString",
@@ -51,6 +56,7 @@
     "features": [
         {
             "attributes": {
+                "OBJECTID": 1,
                 "Navn": "Åpen internasjonal kulturbarnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/apen-internasjonal-kulturbarnehage/",
                 "Gatenavn": "Holbergsgate",
@@ -69,6 +75,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 8,
                 "Navn": "Tripp Trapp åpen barnehage",
                 "Url": "https://hanakirke.no/-%C3%85pen-barnehage",
                 "Gatenavn": "Åsveien",
@@ -87,6 +94,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 9,
                 "Navn": "Sviland Fus barnehage AS",
                 "Url": "https://fus.no/sviland",
                 "Gatenavn": "Svilandveien",
@@ -105,6 +113,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 10,
                 "Navn": "Bogafjell Åpne barnehage",
                 "Url": "https://www.kirken.no/globalassets/fellesrad/00sandnes/bogafjell-sokn/div-pdf/informasjonsbrosjyre.pdf",
                 "Gatenavn": "Lyngholen",
@@ -123,6 +132,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 11,
                 "Navn": "Espira Krystallveien barnehage",
                 "Url": "http://www.espira.no",
                 "Gatenavn": "Krystallveien",
@@ -141,6 +151,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 12,
                 "Navn": "Sandvedhaugen barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/sandvedhaugen-barnehage2/",
                 "Gatenavn": "Gamle Asheimvei",
@@ -159,6 +170,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 13,
                 "Navn": "Læringsverkstedet Bratteborg barnehage",
                 "Url": "https://laringsverkstedet.no/barnehage/bratteborg",
                 "Gatenavn": "Brattebøveien",
@@ -177,6 +189,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 14,
                 "Navn": "Espira Sandtoppen naturbarnehage AS",
                 "Url": "http://www.sandtoppen.no",
                 "Gatenavn": "Sandvikbakken",
@@ -195,6 +208,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 15,
                 "Navn": "Læringsverkstedet Julebygda barnehage",
                 "Url": "https://laringsverkstedet.no/barnehage/julebygda",
                 "Gatenavn": "Heigreveien",
@@ -213,6 +227,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 16,
                 "Navn": "Brueland barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/brueland-barnehage2/",
                 "Gatenavn": "Samuel J. Sandvedsvei",
@@ -231,6 +246,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 17,
                 "Navn": "Stangeland barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/skeiane-barnehagene-avdeling-stangeland-barnehage/",
                 "Gatenavn": "Agneveien",
@@ -249,6 +265,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 18,
                 "Navn": "Varatun barnehage Varatunhagen",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/varatun-barnehagene2/",
                 "Gatenavn": "Varatunhagen",
@@ -267,6 +284,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 19,
                 "Navn": "Lundegård barnehage SA",
                 "Url": "http://www.lundegardbarnehage.no",
                 "Gatenavn": "Haugen",
@@ -285,6 +303,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 20,
                 "Navn": "Ganddal barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/ganddal-barnehagene-avdeling-Ganddal-barnehage/",
                 "Gatenavn": "Kvålveien",
@@ -303,6 +322,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 21,
                 "Navn": "Varatun barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/varatun-barnehagene2/",
                 "Gatenavn": "Postveien",
@@ -321,6 +341,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 22,
                 "Navn": "Gravarslia barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/austsia-barnehagene-avdeling-gravarslia-barnehage/",
                 "Gatenavn": "Gravarstunet",
@@ -339,6 +360,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 23,
                 "Navn": "Buggeland barnehage SA",
                 "Url": "http://www.buggeland-barnehage.no",
                 "Gatenavn": "Buggelandsbakken",
@@ -357,6 +379,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 24,
                 "Navn": "Lundehagen Fus barnehage",
                 "Url": "https://fus.no/lundehagen",
                 "Gatenavn": "Akselhagen",
@@ -375,6 +398,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 25,
                 "Navn": "Læringsverkstedet Vatnekrossen barnehage",
                 "Url": "http://laringsverkstedet.no/barnehage/vatnekrossen",
                 "Gatenavn": "Hanamyrveien",
@@ -393,6 +417,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 26,
                 "Navn": "Figgjoelva barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/figgjoelva-barnehage/",
                 "Gatenavn": "Tjessheimveien",
@@ -411,6 +436,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 27,
                 "Navn": "Røyrvik gårdsbarnehage AS",
                 "Url": "https://royrvik-gard.barnehage.no/",
                 "Gatenavn": "Røyrvikveien",
@@ -429,6 +455,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 28,
                 "Navn": "Sørbø barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/ganddal-barnahagene-sorbo-barnehage/",
                 "Gatenavn": "Sørbøveien",
@@ -447,6 +474,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 29,
                 "Navn": "Kreativ barnehage Hove",
                 "Url": "https://kreativ.barnehage.no/",
                 "Gatenavn": "Hafrakveien",
@@ -465,6 +493,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 30,
                 "Navn": "Langgata barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/sentrumsbarnehagene-avdeling-langgata-barnehage/",
                 "Gatenavn": "Langgata",
@@ -483,6 +512,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 31,
                 "Navn": "Kleivane barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/sor-ost-barnehagene-avdeling-kleivane-barnehage/",
                 "Gatenavn": "Kvernhusbakken",
@@ -501,6 +531,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 32,
                 "Navn": "Sørbø barnehage Nord",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/ganddal-barnahagene-sorbo-barnehage/",
                 "Gatenavn": "Harahaugane",
@@ -519,6 +550,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 33,
                 "Navn": "Hans og Grete barnehage SA",
                 "Url": "https://hansoggrete.barnehage.no/",
                 "Gatenavn": "Foren",
@@ -537,6 +569,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 34,
                 "Navn": "Håbet Fus barnehage",
                 "Url": "https://fus.no/habet",
                 "Gatenavn": "Håbafjellveien",
@@ -555,6 +588,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 35,
                 "Navn": "Figgjo barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/Sor-ost-barnehagene-avdeling-figgjo-barnehage/",
                 "Gatenavn": "Utslåtten",
@@ -573,6 +607,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 36,
                 "Navn": "Aktiv barnehage",
                 "Url": "http://www.aktiv-barnehage.no",
                 "Gatenavn": "Gamle Somavei",
@@ -591,6 +626,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 37,
                 "Navn": "Rabalder barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/rabalder-barnehage/",
                 "Gatenavn": "Porsmyrveien",
@@ -609,6 +645,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 38,
                 "Navn": "Espira Lura barnehage",
                 "Url": "http://www.espira.no",
                 "Gatenavn": "Midtbergmyrå",
@@ -627,6 +664,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 39,
                 "Navn": "Trones barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/sentrumsbarnehagene-avdeling-trones-barnehage/",
                 "Gatenavn": "Postveien",
@@ -645,6 +683,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 40,
                 "Navn": "Myklaberget barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/gandsfjord-barnehagene-avdeling-myklaberget-barnehage/",
                 "Gatenavn": "Smørbukkveien",
@@ -663,6 +702,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 41,
                 "Navn": "Svanholmen Kanvas-barnehage",
                 "Url": "https://www.kanvas.no/svanholmen/",
                 "Gatenavn": "Svanholmen",
@@ -681,6 +721,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 42,
                 "Navn": "Myrsnipa barnehage",
                 "Url": "https://myrsnipa.barnehage.no/",
                 "Gatenavn": "Porsholen",
@@ -699,6 +740,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 43,
                 "Navn": "Hommersåk barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/riska-barnehagene-avdeling-hommersak-barnehage/",
                 "Gatenavn": "Teineveien",
@@ -717,6 +759,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 44,
                 "Navn": "Austrått barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/sor-ost-barnehagene-avdeling-austratt-barnehage/",
                 "Gatenavn": "Øygardsveien",
@@ -735,6 +778,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 45,
                 "Navn": "Jønningheia barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/skogsheia-barnehagene-avdeling-jonningheia-barnehage/",
                 "Gatenavn": "Tulipanveien",
@@ -753,6 +797,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 46,
                 "Navn": "Riska barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/riska-barnehagene-avdeling-riska-barnehage/",
                 "Gatenavn": "Kydnaveien",
@@ -771,6 +816,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 47,
                 "Navn": "Sandved barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/skeiane-barnehagene-avdeling-sandved-barnehage/",
                 "Gatenavn": "Juvelveien",
@@ -789,6 +835,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 48,
                 "Navn": "Vatne barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/austsia-barnehagene-avdeling-vatne-barnehage/",
                 "Gatenavn": "Skytebaneveien",
@@ -807,6 +854,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 49,
                 "Navn": "Porsholen barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/gandsfjord-barnehagene-avdeling-porsholen-barnehage/",
                 "Gatenavn": "Porsmyrveien",
@@ -825,6 +873,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 50,
                 "Navn": "Høle barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/hole-barnehage2/",
                 "Gatenavn": "Apalstøveien",
@@ -843,6 +892,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 51,
                 "Navn": "Espira Taremareby barnehage",
                 "Url": "http://www.espira.no",
                 "Gatenavn": "Sandvikbakken",
@@ -861,6 +911,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 52,
                 "Navn": "Håholen barnehage",
                 "Url": "http://www.haaholenbarnehage.no",
                 "Gatenavn": "Kobberveien",
@@ -879,6 +930,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 53,
                 "Navn": "Forsand barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/forsand-barnehage2/",
                 "Gatenavn": "Bergekrossen",
@@ -897,6 +949,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 54,
                 "Navn": "Maudland Fus barnehage AS",
                 "Url": "https://fus.no/maudland",
                 "Gatenavn": "Maudlandsveien",
@@ -915,6 +968,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 55,
                 "Navn": "Rissebærstraen barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/gandsfjord-barnehagene-avdeling-rissebarstraen-barnehage/",
                 "Gatenavn": "Sjøveien",
@@ -933,6 +987,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 56,
                 "Navn": "Håbafjell idrettsbarnehage",
                 "Url": "http://www.haabafjell-idrettsbarnehage.no",
                 "Gatenavn": "Håbafjellveien",
@@ -951,6 +1006,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 57,
                 "Navn": "Stangelandsforen barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/skeiane-barnehagene-avdeling-stangelandsforen-barnehage/",
                 "Gatenavn": "Grovene",
@@ -969,6 +1025,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 58,
                 "Navn": "Knøttene åpen barnehage",
                 "Url": "https://riskakirke.no/-%C3%85pen-barnehage",
                 "Gatenavn": "Amboltveien",
@@ -987,6 +1044,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 59,
                 "Navn": "Soma Gård naturbarnehage",
                 "Url": "http://www.somagard-bhg.no",
                 "Gatenavn": "Sandnesveien",
@@ -1005,6 +1063,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 60,
                 "Navn": "Skaarlia barnehage SA",
                 "Url": "https://skaarlia.barnehage.no/",
                 "Gatenavn": "Skaret terrasse",
@@ -1023,6 +1082,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 61,
                 "Navn": "Smeaheia barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/skogsheia-barnehagene-avdeling-smeaheia-barnehage/",
                 "Gatenavn": "Kjærholen",
@@ -1041,6 +1101,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 62,
                 "Navn": "Bogafjellbakken naturbarnehage SA",
                 "Url": "https://www.minbarnehage.no/bogafjellbakken",
                 "Gatenavn": "Lyngholen",
@@ -1059,6 +1120,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 63,
                 "Navn": "Øygard barnehage",
                 "Url": "https://www.sandnes.kommune.no/sti/barn-unge-og-familie/barnehage/barnehager-i-sandnes/kommunale-barnehager/austsia-barnehagene-avdeling-oygard-barnehage/",
                 "Gatenavn": "Øygardsveien",
@@ -1077,6 +1139,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 64,
                 "Navn": "Ormaskogen barnehage",
                 "Url": "https://www.ormaskogen.no/",
                 "Gatenavn": "Kjærholen",
@@ -1095,6 +1158,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 65,
                 "Navn": "Læringsverkstedet Strutsen naturbarnehage",
                 "Url": "https://laringsverkstedet.no/barnehage/strutsen-et-pedagogisk-barnesenter",
                 "Gatenavn": "Svebastadveien",
@@ -1113,6 +1177,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 66,
                 "Navn": "Trollhaugen foreldrelagsbarnehage SA",
                 "Url": "https://www.minbarnehage.no/trollhaugen",
                 "Gatenavn": "Urskjellveien",
@@ -1131,6 +1196,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 67,
                 "Navn": "Utsikten Vest Fus barnehage AS",
                 "Url": "https://fus.no/utsiktenvest",
                 "Gatenavn": "Bogafjellbakken",
@@ -1149,6 +1215,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 68,
                 "Navn": "Lekeland barnehage",
                 "Url": "https://lekeland.barnehage.no/",
                 "Gatenavn": "Kalamyrveien",
@@ -1167,6 +1234,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 69,
                 "Navn": "Espira Eikenøtta naturbarnehage AS",
                 "Url": "http://www.espira.no",
                 "Gatenavn": "Kyrkjevollveien",
@@ -1185,6 +1253,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 70,
                 "Navn": "Iglemyr Fus barnehage",
                 "Url": "https://fus.no/iglemyr",
                 "Gatenavn": "Øygardsveien",
@@ -1203,6 +1272,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 71,
                 "Navn": "Espira Vagletjørn barnehage",
                 "Url": "https://espira.no/barnehage/espira-vagletjorn/",
                 "Gatenavn": "Buggelandsbakken",
@@ -1221,6 +1291,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 72,
                 "Navn": "Læringsverkstedet Osa gårdsbarnehage",
                 "Url": "https://laringsverkstedet.no/barnehage/l%C3%A6ringsverkstedet-osa-g%C3%A5rdsbarnehage",
                 "Gatenavn": "Skjævelandveien",
@@ -1239,6 +1310,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 73,
                 "Navn": "Nlm-Barnehage Lube AS",
                 "Url": "*",
                 "Gatenavn": "Lindeveien",
@@ -1257,6 +1329,7 @@
         },
         {
             "attributes": {
+                "OBJECTID": 74,
                 "Navn": "Kreativ barnehage Bogafjell",
                 "Url": "https://kreativ-bogafjell.barnehage.no/",
                 "Gatenavn": "Buggelandsbakken",
