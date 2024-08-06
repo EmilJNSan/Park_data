@@ -103,9 +103,9 @@
         {
             "attributes": {
                 "Navn": "Kvelven Leirduebane",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "https://www.njff.no/rogaland/forsand/jaktskyting",
+                "Gatenavn": "Kvelven",
+                "Husnummer": "135",
                 "Bokstav": null,
                 "Type": 909,
                 "Eierform": null
@@ -170,7 +170,7 @@
         },
         {
             "attributes": {
-                "Navn": "Varatun helsebasseng",
+                "Navn": "Varatun helsebassenget",
                 "Url": "*",
                 "Gatenavn": "Postveien",
                 "Husnummer": "181",
@@ -256,7 +256,7 @@
         {
             "attributes": {
                 "Navn": "Bogafjell Skatepark",
-                "Url": "*",
+                "Url": "https://www.sandnes.kommune.no/sti/idrett-park-og-friluftsliv/idrettsanlegg/skateanlegg/",
                 "Gatenavn": "Lyngholen",
                 "Husnummer": "7",
                 "Bokstav": null,
@@ -273,9 +273,9 @@
         {
             "attributes": {
                 "Navn": "Stall Friheten",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "https://www.stallfriheten.no/",
+                "Gatenavn": "Helgelandsveien",
+                "Husnummer": "48",
                 "Bokstav": null,
                 "Type": 905,
                 "Eierform": null
@@ -290,7 +290,7 @@
         {
             "attributes": {
                 "Navn": "Lura Skatepark",
-                "Url": "*",
+                "Url": "https://www.sandnes.kommune.no/sti/idrett-park-og-friluftsliv/idrettsanlegg/skateanlegg/",
                 "Gatenavn": "Prinsens vei",
                 "Husnummer": "14",
                 "Bokstav": "A",
@@ -307,9 +307,9 @@
         {
             "attributes": {
                 "Navn": "Villingur Islandshest Forening",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "https://www.villingur.com/",
+                "Gatenavn": "Espedalsvegen",
+                "Husnummer": "85",
                 "Bokstav": null,
                 "Type": 905,
                 "Eierform": null
@@ -392,9 +392,9 @@
         {
             "attributes": {
                 "Navn": "Sandnes Arena",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "https://www.sandnesarena.no/",
+                "Gatenavn": "Melsheiveien",
+                "Husnummer": "50",
                 "Bokstav": null,
                 "Type": 903,
                 "Eierform": null
@@ -410,8 +410,8 @@
             "attributes": {
                 "Navn": "Vatne Skytebane",
                 "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Gatenavn": "Skytebaneveien",
+                "Husnummer": "50",
                 "Bokstav": null,
                 "Type": 909,
                 "Eierform": null
@@ -426,8 +426,8 @@
         {
             "attributes": {
                 "Navn": "NOP Vatne",
-                "Url": "*",
-                "Gatenavn": "*",
+                "Url": "https://sites.google.com/site/nopvatne",
+                "Gatenavn": "Svartemyrveien",
                 "Husnummer": null,
                 "Bokstav": null,
                 "Type": 909,
@@ -443,7 +443,7 @@
         {
             "attributes": {
                 "Navn": "Sandnes Idrettspark Tennis",
-                "Url": "*",
+                "Url": "https://www.sandnes.kommune.no/sti/idrett-park-og-friluftsliv/idrettsanlegg/tennisanlegg/",
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
@@ -460,9 +460,9 @@
         {
             "attributes": {
                 "Navn": "Soma rideskole",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "https://soma-rideskole.blogspot.com/p/forside.html",
+                "Gatenavn": "Sandnesveien",
+                "Husnummer": "194",
                 "Bokstav": null,
                 "Type": 905,
                 "Eierform": null
@@ -477,9 +477,9 @@
         {
             "attributes": {
                 "Navn": "Lutsi Hestesenter",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "https://www.facebook.com/groups/676838313184922/",
+                "Gatenavn": "Furenesveien",
+                "Husnummer": "5",
                 "Bokstav": null,
                 "Type": 905,
                 "Eierform": null
@@ -494,9 +494,9 @@
         {
             "attributes": {
                 "Navn": "Riska hestesenter",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "https://www.facebook.com/RiskaRideklubb/",
+                "Gatenavn": "Riskaveien",
+                "Husnummer": "110",
                 "Bokstav": null,
                 "Type": 905,
                 "Eierform": null
@@ -511,9 +511,9 @@
         {
             "attributes": {
                 "Navn": "Sandnes sykkel- og aktivitetsgård",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "https://www.tryggtrafikk.no/fylkeskontorer/trygg-trafikk-rogaland/sandnes-sykkel-og-aktivitetsgard/",
+                "Gatenavn": "Dyre Vaas vei",
+                "Husnummer": "61",
                 "Bokstav": null,
                 "Type": 900,
                 "Eierform": null
@@ -528,9 +528,9 @@
         {
             "attributes": {
                 "Navn": "Fossanmoen Islandshestsenter",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "http://www.fossanmoen.no/",
+                "Gatenavn": "Espedalsvegen",
+                "Husnummer": "174",
                 "Bokstav": null,
                 "Type": 905,
                 "Eierform": null
@@ -545,9 +545,9 @@
         {
             "attributes": {
                 "Navn": "Sandnes og Jæren rideklubb",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "https://sjr.no/",
+                "Gatenavn": "Kvernelandsveien",
+                "Husnummer": "130",
                 "Bokstav": null,
                 "Type": 905,
                 "Eierform": null
@@ -562,9 +562,9 @@
         {
             "attributes": {
                 "Navn": "Tryggvi Islandshestgård",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "https://tryggvi.no/hester/",
+                "Gatenavn": "Vaglemoen",
+                "Husnummer": "12",
                 "Bokstav": null,
                 "Type": 905,
                 "Eierform": null
@@ -579,9 +579,9 @@
         {
             "attributes": {
                 "Navn": "Sandnes Pistolklubb",
-                "Url": "*",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Url": "https://sandnes-pk.no/",
+                "Gatenavn": "Gamle Åslandsveien",
+                "Husnummer": "63",
                 "Bokstav": null,
                 "Type": 909,
                 "Eierform": null
@@ -596,7 +596,7 @@
         {
             "attributes": {
                 "Navn": "Ruten Skatepark",
-                "Url": "*",
+                "Url": "https://www.sandnes.kommune.no/sti/idrett-park-og-friluftsliv/idrettsanlegg/skateanlegg/",
                 "Gatenavn": "Vågsgata",
                 "Husnummer": null,
                 "Bokstav": null,
@@ -613,7 +613,7 @@
         {
             "attributes": {
                 "Navn": "Austrått Skatepark",
-                "Url": "*",
+                "Url": "https://www.sandnes.kommune.no/sti/idrett-park-og-friluftsliv/idrettsanlegg/skateanlegg/",
                 "Gatenavn": "Iglemyrveien",
                 "Husnummer": "3",
                 "Bokstav": null,
@@ -630,7 +630,7 @@
         {
             "attributes": {
                 "Navn": "Austrått Skatepark",
-                "Url": "*",
+                "Url": "https://www.sandnes.kommune.no/sti/idrett-park-og-friluftsliv/idrettsanlegg/skateanlegg/",
                 "Gatenavn": "Iglemyrveien",
                 "Husnummer": "3",
                 "Bokstav": null,
@@ -647,7 +647,7 @@
         {
             "attributes": {
                 "Navn": "Sandnes BMX-bane",
-                "Url": "*",
+                "Url": "https://www.sandnesbmx.no/",
                 "Gatenavn": "Kvålkroken",
                 "Husnummer": "6",
                 "Bokstav": null,
@@ -664,7 +664,7 @@
         {
             "attributes": {
                 "Navn": "Sviland BMX-bane",
-                "Url": "*",
+                "Url": "https://www.svilandbmx.no/",
                 "Gatenavn": "Espelandsveien",
                 "Husnummer": "360",
                 "Bokstav": null,
@@ -681,7 +681,7 @@
         {
             "attributes": {
                 "Navn": "Pumptrackbanen Sandvedparken",
-                "Url": "*",
+                "Url": "https://www.sandnes.kommune.no/sti/idrett-park-og-friluftsliv/idrettsanlegg/andre-idrettsanlegg/Sandvedparkenpumptrackbane/",
                 "Gatenavn": "Kvellurveien",
                 "Husnummer": "23",
                 "Bokstav": null,
@@ -801,8 +801,8 @@
             "attributes": {
                 "Navn": "Byrkjeland idrettsplass",
                 "Url": "https://www.sandnes.kommune.no/sti/idrett-park-og-friluftsliv/idrettsanlegg/fotballbaner/",
-                "Gatenavn": "*",
-                "Husnummer": null,
+                "Gatenavn": "Espedalsvegen",
+                "Husnummer": "865",
                 "Bokstav": null,
                 "Type": 102,
                 "Eierform": null
@@ -1429,7 +1429,7 @@
         {
             "attributes": {
                 "Navn": "Discgolf i Varatunparken",
-                "Url": "*",
+                "Url": "https://www.sdgk.no/klubben",
                 "Gatenavn": "*",
                 "Husnummer": null,
                 "Bokstav": null,
@@ -1446,7 +1446,7 @@
         {
             "attributes": {
                 "Navn": "Sandnes Golfpark",
-                "Url": "*",
+                "Url": "https://www.sandnesgolfklubb.no/",
                 "Gatenavn": "Bærheimveien",
                 "Husnummer": "39",
                 "Bokstav": null,
