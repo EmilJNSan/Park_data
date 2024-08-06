@@ -71,11 +71,25 @@
             img.src = url;
         }
 
+
         function loadMarkers(data) {
             var markers = [];
             if (data.features && Array.isArray(data.features)) {
                 data.features.forEach(function (plass) {
-                    var icon = blaatikon;
+                    var type = plass.attributes.Type;
+                    var iconUrl = `${direct}css/images/icon/aktiv/${type}.png`;
+
+                    imageExists(iconUrl, function(exists) {
+                        if (!exists) {
+                            iconUrl = `${direct}css/images/icon/aktiv/999.png`;
+                        }
+
+                        var icon = L.icon({
+                            iconUrl: iconUrl,
+                            iconSize: [32, 32],
+                            iconAnchor: [16, 32],
+                            popupAnchor: [0, -32]
+                        });
                     if (plass.attributes.Gatenavn != "*"){
                         var adresse = "Adresse: " +plass.attributes.Gatenavn + " " +plass.attributes.Husnummer+plass.attributes.Bokstav;
                         adresse.replace("null","")
