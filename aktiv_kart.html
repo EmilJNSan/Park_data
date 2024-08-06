@@ -75,37 +75,30 @@
             var markers = [];
             if (data.features && Array.isArray(data.features)) {
                 data.features.forEach(function (plass) {
-                    var type = plass.attributes.Type;
-                    var iconUrl = `${direct}css/images/icon/aktiv/${type}.png`;
-
-                    imageExists(iconUrl, function(exists) {
-                        if (!exists) {
-                            iconUrl = `${direct}css/images/icon/aktiv/999.png`;
-                        }
-
-                        var icon = L.icon({
-                            iconUrl: iconUrl,
-                            iconSize: [32, 32],
-                            iconAnchor: [16, 32],
-                            popupAnchor: [0, -32]
-                        });
-
-                        var marker = L.marker([plass.geometry.latitude, plass.geometry.longitude], { icon: icon }).bindPopup(`
-                            <a href="${plass.attributes.Url}" target="_blank"><h2>${plass.attributes.Navn}</h2></a> 
-                            Adresse: ${plass.attributes.Gatenavn} ${plass.attributes.Husnummer} ${plass.attributes.Bokstav || ''}<br>
-                            <a href="https://www.google.com/maps/dir/?api=1&destination=${plass.geometry.latitude},${plass.geometry.longitude}" target="_blank">Veibeskrivelse</a> <br>
-                        `);
-                        marker.data = plass;
-
-                        markers.push(marker);
-                        try {
-                            eval("group_" + plass.attributes.Type + "_Cluster").addLayer(marker);
-                        } catch (error) {
-                            console.log(error);
-                            group_annet_Cluster.addLayer(marker);
-                        }
-                        group_all_Cluster.addLayer(marker);
-                    });
+                    var icon = blaatikon;
+                    var adresse = "Adresse: " +plass.attributes.Gatenavn + " " +plass.attributes.Husnummer+plass.attributes.Bokstav;
+                    if (plass.attributes.Url != "*"){
+                        var link_navn = `<a href="${plass.attributes.Url}" target="_blank"><h2>${plass.attributes.Navn}</h2></a>`;
+                    }
+                    else{
+                        var link_navn = `<h2>${plass.attributes.Navn}</h2>`;
+                    }
+                    var marker = L.marker([plass.geometry.latitude, plass.geometry.longitude], { icon: icon }).bindPopup(`
+                         ${link_navn}
+                        ${adresse}<br>
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=${plass.geometry.latitude},${plass.geometry.longitude}" target="_blank">Veibeskrivelse</a> <br>
+                    `);
+                    marker.data = plass;
+                    
+                    markers.push(marker);
+                    try{
+                        eval("group_"+plass.attributes.Type+"_Cluster").addLayer(marker);
+                    }
+                    catch(error){
+                        console.log(error)
+                        group_annet_Cluster.addLayer(marker);
+                    }
+                    group_all_Cluster.addLayer(marker);
                 });
             } else {
                 console.error('Data does not contain features array');
@@ -117,7 +110,6 @@
             .then(response => response.json())
             .then(data => {
                 allMarkers = loadMarkers(data);
-                // Ensure allCluster is visible from the start
                 map.addLayer(group_all_Cluster);
             })
             .catch(error => {
