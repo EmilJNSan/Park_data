@@ -29,10 +29,10 @@
         console.log(testtekst);
 
         const map = L.map('map').setView([58.8464, 5.7438], 16);
-        const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
+        const mtLayer = L.maptilerLayer({
+        apiKey: key,
+        style: "streets-v2",
+      }).addTo(map);
 
         var mcgLayerSupportGroup = L.markerClusterGroup.layerSupport(),
             publicCluster = L.layerGroup(),
