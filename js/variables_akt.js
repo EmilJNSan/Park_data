@@ -6,7 +6,7 @@ const grunnkart = "https://www.openstreetmap.org/#map={z}/{y}/{x}.png";
 
 const attribution_tag = '©️ Geodata AS, Kartverket, Geovekst og kommunene, OpenStreetMap';
 const marker_blaa = "css/images/icon/marker-icon_blaa.png";
-const testtekst = "Test variabler variant 1";
+const testtekst = "Test variabler variant 2";
 
 var blaatikon = L.icon({
 	  iconUrl: `${direct}${marker_blaa}`,
