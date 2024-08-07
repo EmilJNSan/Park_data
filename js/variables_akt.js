@@ -1,7 +1,7 @@
 const jsonUrl = "json/aktiviteter.json";
 const direct = "https://Laila72.github.io/Park_data/";
 //const grunnkart = "https://services.geodataonline.no/arcgis/rest/services/Geocache_WMAS_WGS84/GeocacheBasis/MapServer/tile/{z}/{y}/{x}";
-const grunnkart = "https://www.openstreetmap.org/#map={z}/{y}/{x}";
+const grunnkart = "https://www.openstreetmap.org/#map={z}/{y}/{x}.png";
 
 
 const attribution_tag = '©️ Geodata AS, Kartverket, Geovekst og kommunene, OpenStreetMap';
