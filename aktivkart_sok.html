@@ -28,11 +28,14 @@
     <script>
         console.log(testtekst);
         
-              const key = 'GHQqmOH79uvsDOAtQflA';
-      const map = L.map('map').setView([0, 0], 1);
+      const key = 'GHQqmOH79uvsDOAtQflA';
+      const map = L.map('map').setView([58.85, 5.75], 9);
       const mtLayer = L.maptilerLayer({
         apiKey: key,
-        style: "streets-v2", //optional
+        style: "streets-v2",
+        maxZoom: 18,
+        minZoom: 8,
+        attribution: attribution_tag
       }).addTo(map);
 
         var mcgLayerSupportGroup = L.markerClusterGroup.layerSupport(),
