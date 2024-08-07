@@ -25,17 +25,12 @@
     <script>
         console.log(testtekst);
         
-        var map = L.map('map', {
-            center: [58.85, 5.75],
-            zoom: 9,
-            layers: [
-                L.tileLayer(grunnkart, {
-                    maxZoom: 18,
-                    minZoom: 8,
-                    attribution: attribution_tag
-                }), 
-            ]
-        });
+              const key = 'GHQqmOH79uvsDOAtQflA';
+      const map = L.map('map').setView([0, 0], 1);
+      const mtLayer = L.maptilerLayer({
+        apiKey: key,
+        style: "streets-v2", //optional
+      }).addTo(map);
 
         var mcgLayerSupportGroup = L.markerClusterGroup.layerSupport(),
             publicCluster = L.layerGroup(),
