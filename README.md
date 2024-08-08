@@ -2,7 +2,10 @@
 
 ## [Leaflet](https://leafletjs.com/) baserte kart bygget på OpenStreetmap sin kartdata.
 
+
 ### Innholdet i kartene hentes fra ulike steder.
+
+Punktene lagres i json filer under mappen json.
 
 ```
 Kart  | Opphav av punkter
@@ -12,7 +15,13 @@ Aktiviteter  | https://kart.sandnes.kommune.no/appgis/rest/services/POI/POI/Feat
 Barnehager  | https://kart.sandnes.kommune.no/appgis/rest/services/POI/POI/FeatureServer/0/
 ```
 
-#### Punktene lagres i json filer under mappen json.
+### Oppdatering av Kart innhold:
+
+Bør settes opp for automatisk vedlikehold. TODO
+
+### Ikoner for markører ligger under css/images mappen.
+
+Skal ikoner endres bør bildenavnet holdes likt. 
 
 Markører ligger under /css/images/icon
 
