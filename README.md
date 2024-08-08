@@ -7,6 +7,7 @@
 
 Punktene lagres i json filer under mappen json.
 
+
 ```
 Kart  | Opphav av punkter
 ------------- | -------------
@@ -41,3 +42,8 @@ Stil er endret fra standard (Kun farger), slike endringer gjøres i css/MarkerCl
 For å lage bedre struktur på kontrollpanelet for punktlag. Anvendes på aktivitetskart, der det er for mange lag å vise på en gang. 
 
 [jjimenezshaw/Leaflet.Control.Layers.Tree: a Tree Layers Control for Leaflet (github.com)](https://github.com/jjimenezshaw/Leaflet.Control.Layers.Tree)
+
+
+### Maptiler
+
+Maptiler burde undersøkes. Koster, men gratis til noe punkt.  For nå er aktivkart_sok brukt for testing. Kan gi finere resultater.
